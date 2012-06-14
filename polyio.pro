@@ -1,4 +1,4 @@
-update=Thu 14 Jun 2012 11:59:31 AM CEST
+update=Do 14 Jun 2012 14:41:43 CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -68,7 +68,11 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
+SimCmd=
+UseNetN=0
 LabSize=60
+PrintMonochrome=1
+ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=power
 LibName2=device

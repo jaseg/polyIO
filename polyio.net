@@ -1,0 +1,525 @@
+# EESchema Netlist Version 1.1 created  Mon 18 Jun 2012 11:08:42 AM CEST
+(
+ ( /4FDA1D6B/4FDA25E9 SM0603 C1 C
+  ( 1 1V2_core )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25E7 SM0603 C2 C
+  ( 1 1V2_core )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25E4 SM0603 C3 C
+  ( 1 1V2_core )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25E2 SM0603 C4 C
+  ( 1 1V2_core )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25DF SM0603 C5 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25CB SM0603 C6 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25CE SM0603 C7 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25D0 SM0603 C8 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25D2 SM0603 C9 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25D4 SM0603 C10 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA25D9 SM0603 C11 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FDA2638 SM0603 C12 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDB7075 RJ45_TRANSFO J1 RJ45-TRANSFO
+  ( 1 N-000052 )
+  ( 2 ? )
+  ( 3 N-000045 )
+  ( 4 N-000053 )
+  ( 5 ? )
+  ( 6 N-000044 )
+  ( 8 ? )
+  ( 13 ? )
+  ( GA N-000004 )
+  ( GK GND )
+  ( YA ? )
+  ( YK ? )
+ )
+ ( /4FDA1D6B/4FDA267E PIN_ARRAY_5x2 P1 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io0 )
+  ( 4 /fpga_io1/io1 )
+  ( 5 /fpga_io1/io2 )
+  ( 6 /fpga_io1/io3 )
+  ( 7 /fpga_io1/io6 )
+  ( 8 /fpga_io1/io4 )
+  ( 9 /fpga_io1/io7 )
+  ( 10 /fpga_io1/io5 )
+ )
+ ( /4FDA1D6B/4FDA268F PIN_ARRAY_5x2 P2 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io8 )
+  ( 4 /fpga_io1/io9 )
+  ( 5 /fpga_io1/io10 )
+  ( 6 /fpga_io1/io12 )
+  ( 7 /fpga_io1/io11 )
+  ( 8 /fpga_io1/io13 )
+  ( 9 /fpga_io1/io14 )
+  ( 10 /fpga_io1/io16 )
+ )
+ ( /4FDA1D6B/4FDA2687 PIN_ARRAY_5x2 P3 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io15 )
+  ( 4 /fpga_io1/io17 )
+  ( 5 /fpga_io1/io18 )
+  ( 6 /fpga_io1/io19 )
+  ( 7 /fpga_io1/io20 )
+  ( 8 /fpga_io1/io21 )
+  ( 9 /fpga_io1/io22 )
+  ( 10 /fpga_io1/io24 )
+ )
+ ( /4FDA1D6B/4FDA2693 PIN_ARRAY_5x2 P4 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io23 )
+  ( 4 /fpga_io1/io79 )
+  ( 5 /fpga_io1/io77 )
+  ( 6 /fpga_io1/io80 )
+  ( 7 /fpga_io1/io78 )
+  ( 8 /fpga_io1/io81 )
+  ( 9 /fpga_io1/io82 )
+  ( 10 /fpga_io1/io83 )
+ )
+ ( /4FDA1D6B/4FDA2B2C PIN_ARRAY_5x2 P5 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io84 )
+  ( 4 /fpga_io1/io85 )
+  ( 5 /fpga_io1/io86 )
+  ( 6 /fpga_io1/io87 )
+  ( 7 /fpga_io1/io88 )
+  ( 8 /fpga_io1/io89 )
+  ( 9 /fpga_io1/io91 )
+  ( 10 /fpga_io1/io90 )
+ )
+ ( /4FDA1D6B/4FDA2B33 PIN_ARRAY_5x2 P6 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io92 )
+  ( 4 /fpga_io1/io93 )
+  ( 5 /fpga_io1/io94 )
+  ( 6 /fpga_io1/io95 )
+  ( 7 /fpga_io1/io97 )
+  ( 8 /fpga_io1/io96 )
+  ( 9 /fpga_io1/io98 )
+  ( 10 /fpga_io1/io99 )
+ )
+ ( /4FDA1D6B/4FDA2B3C PIN_ARRAY_5x2 P7 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io100 )
+  ( 4 /fpga_io1/io101 )
+  ( 5 /fpga_io1/io102 )
+  ( 6 /fpga_io1/io49 )
+  ( 7 /fpga_io1/io50 )
+  ( 8 /fpga_io1/io51 )
+  ( 9 /fpga_io1/io52 )
+  ( 10 /fpga_io1/io53 )
+ )
+ ( /4FDA1D6B/4FDA2B42 PIN_ARRAY_5x2 P8 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io55 )
+  ( 4 /fpga_io1/io54 )
+  ( 5 /fpga_io1/io56 )
+  ( 6 /fpga_io1/io57 )
+  ( 7 /fpga_io1/io59 )
+  ( 8 /fpga_io1/io58 )
+  ( 9 /fpga_io1/io60 )
+  ( 10 /fpga_io1/io61 )
+ )
+ ( /4FDA1D6B/4FDA2D13 PIN_ARRAY_5x2 P9 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io62 )
+  ( 4 /fpga_io1/io63 )
+  ( 5 /fpga_io1/io64 )
+  ( 6 /fpga_io1/io65 )
+  ( 7 /fpga_io1/io67 )
+  ( 8 /fpga_io1/io66 )
+  ( 9 /fpga_io1/io68 )
+  ( 10 /fpga_io1/io69 )
+ )
+ ( /4FDA1D6B/4FDA2D24 PIN_ARRAY_5x2 P10 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/dout )
+  ( 4 /fpga_io1/init_b )
+  ( 5 /fpga_io1/io72 )
+  ( 6 /fpga_io1/io73 )
+  ( 7 /fpga_io1/io75 )
+  ( 8 /fpga_io1/mosi )
+  ( 9 /fpga_io1/sck )
+  ( 10 /fpga_io1/io28 )
+ )
+ ( /4FDA1D6B/4FDA2D2D PIN_ARRAY_5x2 P11 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io26 )
+  ( 4 /fpga_io1/io29 )
+  ( 5 /fpga_io1/io27 )
+  ( 6 /fpga_io1/io25 )
+  ( 7 /fpga_io1/io30 )
+  ( 8 /fpga_io1/io32 )
+  ( 9 /fpga_io1/io31 )
+  ( 10 /fpga_io1/io33 )
+ )
+ ( /4FDA1D6B/4FDA2D32 PIN_ARRAY_5x2 P12 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io34 )
+  ( 4 /fpga_io1/io35 )
+  ( 5 /fpga_io1/io36 )
+  ( 6 /fpga_io1/io38 )
+  ( 7 /fpga_io1/io37 )
+  ( 8 /fpga_io1/io39 )
+  ( 9 /fpga_io1/io40 )
+  ( 10 /fpga_io1/io41 )
+ )
+ ( /4FDA1D6B/4FDA2D3E PIN_ARRAY_5x2 P13 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 /fpga_io1/io42 )
+  ( 4 /fpga_io1/io43 )
+  ( 5 /fpga_io1/io44 )
+  ( 6 /fpga_io1/io46 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 5V )
+  ( 10 5V )
+ )
+ ( /4FDA1D6B/4FDA2D44 PIN_ARRAY_5x2 P14 CONN_5X2
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 5V )
+ )
+ ( /4FDB70E4 SM0603 R1 R
+  ( 1 N-000047 )
+  ( 2 N-000004 )
+ )
+ ( /4FDDD8A7 ARDUINO_SHIELD_GHETTO_STACKING_PINS_ONLY SHIELD1 ARDUINO_SHIELD
+  ( 0 /fpga_io1/rx )
+  ( 1 /fpga_io1/tx )
+  ( 2 ? )
+  ( 3 ? )
+  ( 3V3 /3V3 )
+  ( 4 ? )
+  ( 5 ? )
+  ( 5V /5V )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( AD0 ? )
+  ( AD1 ? )
+  ( AD2 ? )
+  ( AD3 ? )
+  ( AD4 ? )
+  ( AD5 ? )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 GND )
+  ( GND3 GND )
+  ( RST ? )
+  ( V_IN ? )
+ )
+ ( /4FD9B57F Carambola U1 CARAMBOLA
+  ( 1 GND )
+  ( 2 N-000053 )
+  ( 3 N-000044 )
+  ( 4 N-000052 )
+  ( 5 N-000045 )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 GND )
+  ( 13 ? )
+  ( 14 /fpga_io1/sck )
+  ( 15 /fpga_io1/mosi )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 N-000047 )
+  ( 21 /5V )
+  ( 22 /3V3 )
+  ( 23 /3V3 )
+  ( 24 GND )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 /fpga_io1/done )
+  ( 30 /fpga_io1/init_b )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 /fpga_io1/rx )
+  ( 36 /fpga_io1/tx )
+  ( 37 GND )
+  ( 38 ? )
+  ( 39 ? )
+  ( 40 ? )
+ )
+ ( /4FDA1D6B/4FDA1D8D TQFP144 U2 XC3S50A
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 /fpga_io1/io79 )
+  ( 4 /fpga_io1/io77 )
+  ( 5 /fpga_io1/io80 )
+  ( 6 /fpga_io1/io78 )
+  ( 7 /fpga_io1/io81 )
+  ( 8 /fpga_io1/io82 )
+  ( 9 GND )
+  ( 10 /fpga_io1/io83 )
+  ( 11 /fpga_io1/io84 )
+  ( 12 /fpga_io1/io85 )
+  ( 13 /fpga_io1/io86 )
+  ( 14 3V3 )
+  ( 15 /fpga_io1/io87 )
+  ( 16 /fpga_io1/io88 )
+  ( 17 GND )
+  ( 18 /fpga_io1/io89 )
+  ( 19 /fpga_io1/io91 )
+  ( 20 /fpga_io1/io90 )
+  ( 21 /fpga_io1/io92 )
+  ( 22 1V2_core )
+  ( 23 3V3 )
+  ( 24 /fpga_io1/io93 )
+  ( 25 /fpga_io1/io94 )
+  ( 26 GND )
+  ( 27 /fpga_io1/io95 )
+  ( 28 /fpga_io1/io97 )
+  ( 29 /fpga_io1/io96 )
+  ( 30 /fpga_io1/io98 )
+  ( 31 /fpga_io1/io99 )
+  ( 32 /fpga_io1/io100 )
+  ( 33 /fpga_io1/io101 )
+  ( 34 GND )
+  ( 35 /fpga_io1/io102 )
+  ( 36 3V3 )
+  ( 37 /fpga_io1/io49 )
+  ( 38 /fpga_io1/io50 )
+  ( 39 /fpga_io1/io51 )
+  ( 40 3V3 )
+  ( 41 /fpga_io1/io52 )
+  ( 42 /fpga_io1/io53 )
+  ( 43 /fpga_io1/io55 )
+  ( 44 /fpga_io1/io54 )
+  ( 45 /fpga_io1/io56 )
+  ( 46 /fpga_io1/io57 )
+  ( 47 /fpga_io1/io59 )
+  ( 48 /fpga_io1/io58 )
+  ( 49 /fpga_io1/io60 )
+  ( 50 /fpga_io1/io61 )
+  ( 51 /fpga_io1/io62 )
+  ( 52 1V2_core )
+  ( 53 ? )
+  ( 54 /fpga_io1/io63 )
+  ( 55 /fpga_io1/io64 )
+  ( 56 GND )
+  ( 57 /fpga_io1/io65 )
+  ( 58 /fpga_io1/io67 )
+  ( 59 /fpga_io1/io66 )
+  ( 60 /fpga_io1/io68 )
+  ( 61 3V3 )
+  ( 62 ? )
+  ( 63 /fpga_io1/io69 )
+  ( 64 /fpga_io1/dout )
+  ( 65 GND )
+  ( 66 3V3 )
+  ( 67 /fpga_io1/init_b )
+  ( 68 /fpga_io1/io72 )
+  ( 69 /fpga_io1/io73 )
+  ( 70 /fpga_io1/io75 )
+  ( 71 /fpga_io1/mosi )
+  ( 72 /fpga_io1/sck )
+  ( 73 /fpga_io1/done )
+  ( 74 ? )
+  ( 75 /fpga_io1/io28 )
+  ( 76 /fpga_io1/io26 )
+  ( 77 /fpga_io1/io29 )
+  ( 78 /fpga_io1/io27 )
+  ( 79 /fpga_io1/io25 )
+  ( 80 ? )
+  ( 81 GND )
+  ( 82 /fpga_io1/io30 )
+  ( 83 /fpga_io1/io32 )
+  ( 84 /fpga_io1/io31 )
+  ( 85 /fpga_io1/io33 )
+  ( 86 3V3 )
+  ( 87 /fpga_io1/io34 )
+  ( 88 /fpga_io1/io35 )
+  ( 89 GND )
+  ( 90 /fpga_io1/io36 )
+  ( 91 /fpga_io1/io38 )
+  ( 92 /fpga_io1/io37 )
+  ( 93 /fpga_io1/io39 )
+  ( 94 1V2_core )
+  ( 95 3V3 )
+  ( 96 /fpga_io1/io40 )
+  ( 97 ? )
+  ( 98 /fpga_io1/io41 )
+  ( 99 /fpga_io1/io42 )
+  ( 100 GND )
+  ( 101 /fpga_io1/io43 )
+  ( 102 /fpga_io1/io44 )
+  ( 103 /fpga_io1/io46 )
+  ( 104 /fpga_io1/rx )
+  ( 105 /fpga_io1/tx )
+  ( 106 GND )
+  ( 107 ? )
+  ( 108 3V3 )
+  ( 109 ? )
+  ( 110 /fpga_io1/io0 )
+  ( 111 /fpga_io1/io1 )
+  ( 112 /fpga_io1/io2 )
+  ( 113 /fpga_io1/io3 )
+  ( 114 /fpga_io1/io6 )
+  ( 115 /fpga_io1/io4 )
+  ( 116 /fpga_io1/io7 )
+  ( 117 /fpga_io1/io5 )
+  ( 118 GND )
+  ( 119 3V3 )
+  ( 120 /fpga_io1/io8 )
+  ( 121 /fpga_io1/io9 )
+  ( 122 1V2_core )
+  ( 123 ? )
+  ( 124 /fpga_io1/io10 )
+  ( 125 /fpga_io1/io12 )
+  ( 126 /fpga_io1/io11 )
+  ( 127 /fpga_io1/io13 )
+  ( 128 GND )
+  ( 129 /fpga_io1/io14 )
+  ( 130 /fpga_io1/io16 )
+  ( 131 /fpga_io1/io15 )
+  ( 132 /fpga_io1/io17 )
+  ( 133 3V3 )
+  ( 134 /fpga_io1/io18 )
+  ( 135 /fpga_io1/io19 )
+  ( 136 3V3 )
+  ( 137 GND )
+  ( 138 /fpga_io1/io20 )
+  ( 139 /fpga_io1/io21 )
+  ( 140 ? )
+  ( 141 /fpga_io1/io22 )
+  ( 142 /fpga_io1/io24 )
+  ( 143 /fpga_io1/io23 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

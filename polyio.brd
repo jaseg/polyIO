@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 13 Jun 2012 11:00:56 PM CEST
+PCBNEW-BOARD Version 1 date Tue 19 Jun 2012 03:03:12 PM CEST
 
 # Created by Pcbnew(2012-jan-04)-stable
 
@@ -7,21 +7,21 @@ encoding utf-8
 LayerCount 2
 Ly 1FFF8001
 EnabledLayers 1FFF8001
-Links 0
-NoConn 0
-Di 0 0 117000 82670
+Links 213
+NoConn 90
+Di 46279 7279 72721 32721
 Ndraw 0
-Ntrack 0
+Ntrack 702
 Nzone 0
 BoardThickness 630
-Nmodule 0
-Nnets 1
+Nmodule 26
+Nnets 116
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "13 jun 2012"
+Date "19 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -59,11 +59,471 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
 Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "/3V3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "/5V"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "/fpga_io1/done"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "/fpga_io1/dout"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "/fpga_io1/init_b"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "/fpga_io1/io0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "/fpga_io1/io1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "/fpga_io1/io10"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 9 "/fpga_io1/io100"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 10 "/fpga_io1/io101"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 11 "/fpga_io1/io102"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 12 "/fpga_io1/io11"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 13 "/fpga_io1/io12"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 14 "/fpga_io1/io13"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 15 "/fpga_io1/io14"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 16 "/fpga_io1/io15"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 17 "/fpga_io1/io16"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 18 "/fpga_io1/io17"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 19 "/fpga_io1/io18"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 20 "/fpga_io1/io19"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 21 "/fpga_io1/io2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 22 "/fpga_io1/io20"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 23 "/fpga_io1/io21"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 24 "/fpga_io1/io22"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 25 "/fpga_io1/io23"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 26 "/fpga_io1/io24"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 27 "/fpga_io1/io25"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 28 "/fpga_io1/io26"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 29 "/fpga_io1/io27"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 30 "/fpga_io1/io28"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 31 "/fpga_io1/io29"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 32 "/fpga_io1/io3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 33 "/fpga_io1/io30"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 34 "/fpga_io1/io31"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 35 "/fpga_io1/io32"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 36 "/fpga_io1/io33"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 37 "/fpga_io1/io34"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 38 "/fpga_io1/io35"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 39 "/fpga_io1/io36"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 40 "/fpga_io1/io37"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 41 "/fpga_io1/io38"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 42 "/fpga_io1/io39"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 43 "/fpga_io1/io4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 44 "/fpga_io1/io40"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 45 "/fpga_io1/io41"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 46 "/fpga_io1/io42"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 47 "/fpga_io1/io43"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 48 "/fpga_io1/io44"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 49 "/fpga_io1/io46"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 50 "/fpga_io1/io49"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 51 "/fpga_io1/io5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 52 "/fpga_io1/io50"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 53 "/fpga_io1/io51"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 54 "/fpga_io1/io52"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 55 "/fpga_io1/io53"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 56 "/fpga_io1/io54"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 57 "/fpga_io1/io55"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 58 "/fpga_io1/io56"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 59 "/fpga_io1/io57"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 60 "/fpga_io1/io58"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 61 "/fpga_io1/io59"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 62 "/fpga_io1/io6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 63 "/fpga_io1/io60"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 64 "/fpga_io1/io61"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 65 "/fpga_io1/io62"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 66 "/fpga_io1/io63"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 67 "/fpga_io1/io64"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 68 "/fpga_io1/io65"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 69 "/fpga_io1/io66"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 70 "/fpga_io1/io67"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 71 "/fpga_io1/io68"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 72 "/fpga_io1/io69"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 73 "/fpga_io1/io7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 74 "/fpga_io1/io72"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 75 "/fpga_io1/io73"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 76 "/fpga_io1/io75"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 77 "/fpga_io1/io77"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 78 "/fpga_io1/io78"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 79 "/fpga_io1/io79"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 80 "/fpga_io1/io8"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 81 "/fpga_io1/io80"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 82 "/fpga_io1/io81"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 83 "/fpga_io1/io82"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 84 "/fpga_io1/io83"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 85 "/fpga_io1/io84"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 86 "/fpga_io1/io85"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 87 "/fpga_io1/io86"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 88 "/fpga_io1/io87"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 89 "/fpga_io1/io88"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 90 "/fpga_io1/io89"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 91 "/fpga_io1/io9"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 92 "/fpga_io1/io90"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 93 "/fpga_io1/io91"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 94 "/fpga_io1/io92"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 95 "/fpga_io1/io93"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 96 "/fpga_io1/io94"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 97 "/fpga_io1/io95"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 98 "/fpga_io1/io96"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 99 "/fpga_io1/io97"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 100 "/fpga_io1/io98"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 101 "/fpga_io1/io99"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 102 "/fpga_io1/mosi"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 103 "/fpga_io1/rx"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 104 "/fpga_io1/sck"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 105 "/fpga_io1/tx"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 106 "1V2_core"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 107 "3V3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 108 "5V"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 109 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 110 "N-000004"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 111 "N-000044"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 112 "N-000045"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 113 "N-000047"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 114 "N-000052"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 115 "N-000053"
 St ~
 $EndEQUIPOT
 $NCLASS
@@ -76,8 +536,4154 @@ ViaDrill 250
 uViaDia 200
 uViaDrill 50
 AddNet ""
+AddNet "/3V3"
+AddNet "/5V"
+AddNet "/fpga_io1/done"
+AddNet "/fpga_io1/dout"
+AddNet "/fpga_io1/init_b"
+AddNet "/fpga_io1/io0"
+AddNet "/fpga_io1/io1"
+AddNet "/fpga_io1/io10"
+AddNet "/fpga_io1/io100"
+AddNet "/fpga_io1/io101"
+AddNet "/fpga_io1/io102"
+AddNet "/fpga_io1/io11"
+AddNet "/fpga_io1/io12"
+AddNet "/fpga_io1/io13"
+AddNet "/fpga_io1/io14"
+AddNet "/fpga_io1/io15"
+AddNet "/fpga_io1/io16"
+AddNet "/fpga_io1/io17"
+AddNet "/fpga_io1/io18"
+AddNet "/fpga_io1/io19"
+AddNet "/fpga_io1/io2"
+AddNet "/fpga_io1/io20"
+AddNet "/fpga_io1/io21"
+AddNet "/fpga_io1/io22"
+AddNet "/fpga_io1/io23"
+AddNet "/fpga_io1/io24"
+AddNet "/fpga_io1/io25"
+AddNet "/fpga_io1/io26"
+AddNet "/fpga_io1/io27"
+AddNet "/fpga_io1/io28"
+AddNet "/fpga_io1/io29"
+AddNet "/fpga_io1/io3"
+AddNet "/fpga_io1/io30"
+AddNet "/fpga_io1/io31"
+AddNet "/fpga_io1/io32"
+AddNet "/fpga_io1/io33"
+AddNet "/fpga_io1/io34"
+AddNet "/fpga_io1/io35"
+AddNet "/fpga_io1/io36"
+AddNet "/fpga_io1/io37"
+AddNet "/fpga_io1/io38"
+AddNet "/fpga_io1/io39"
+AddNet "/fpga_io1/io4"
+AddNet "/fpga_io1/io40"
+AddNet "/fpga_io1/io41"
+AddNet "/fpga_io1/io42"
+AddNet "/fpga_io1/io43"
+AddNet "/fpga_io1/io44"
+AddNet "/fpga_io1/io46"
+AddNet "/fpga_io1/io49"
+AddNet "/fpga_io1/io5"
+AddNet "/fpga_io1/io50"
+AddNet "/fpga_io1/io51"
+AddNet "/fpga_io1/io52"
+AddNet "/fpga_io1/io53"
+AddNet "/fpga_io1/io54"
+AddNet "/fpga_io1/io55"
+AddNet "/fpga_io1/io56"
+AddNet "/fpga_io1/io57"
+AddNet "/fpga_io1/io58"
+AddNet "/fpga_io1/io59"
+AddNet "/fpga_io1/io6"
+AddNet "/fpga_io1/io60"
+AddNet "/fpga_io1/io61"
+AddNet "/fpga_io1/io62"
+AddNet "/fpga_io1/io63"
+AddNet "/fpga_io1/io64"
+AddNet "/fpga_io1/io65"
+AddNet "/fpga_io1/io66"
+AddNet "/fpga_io1/io67"
+AddNet "/fpga_io1/io68"
+AddNet "/fpga_io1/io69"
+AddNet "/fpga_io1/io7"
+AddNet "/fpga_io1/io72"
+AddNet "/fpga_io1/io73"
+AddNet "/fpga_io1/io75"
+AddNet "/fpga_io1/io77"
+AddNet "/fpga_io1/io78"
+AddNet "/fpga_io1/io79"
+AddNet "/fpga_io1/io8"
+AddNet "/fpga_io1/io80"
+AddNet "/fpga_io1/io81"
+AddNet "/fpga_io1/io82"
+AddNet "/fpga_io1/io83"
+AddNet "/fpga_io1/io84"
+AddNet "/fpga_io1/io85"
+AddNet "/fpga_io1/io86"
+AddNet "/fpga_io1/io87"
+AddNet "/fpga_io1/io88"
+AddNet "/fpga_io1/io89"
+AddNet "/fpga_io1/io9"
+AddNet "/fpga_io1/io90"
+AddNet "/fpga_io1/io91"
+AddNet "/fpga_io1/io92"
+AddNet "/fpga_io1/io93"
+AddNet "/fpga_io1/io94"
+AddNet "/fpga_io1/io95"
+AddNet "/fpga_io1/io96"
+AddNet "/fpga_io1/io97"
+AddNet "/fpga_io1/io98"
+AddNet "/fpga_io1/io99"
+AddNet "/fpga_io1/mosi"
+AddNet "/fpga_io1/rx"
+AddNet "/fpga_io1/sck"
+AddNet "/fpga_io1/tx"
+AddNet "1V2_core"
+AddNet "3V3"
+AddNet "5V"
+AddNet "GND"
+AddNet "N-000004"
+AddNet "N-000044"
+AddNet "N-000045"
+AddNet "N-000047"
+AddNet "N-000052"
+AddNet "N-000053"
 $EndNCLASS
+$MODULE TQFP144
+Po 59800 20000 0 15 00200000 4FDEF102 ~~
+Li TQFP144
+Sc 4FDEF102
+AR /4FDA1D6B/4FDA1D8D
+Op 0 0 0
+At SMD 
+T0 0 -750 600 400 0 100 N V 21 N "U2"
+T1 0 750 600 400 0 100 N V 21 N "XC3S50A"
+DC 3250 -3250 3250 -3500 120 21
+DS 3400 -3700 3490 -3700 120 21
+DS 3490 -3700 3490 -4000 120 21
+DS 3400 -4000 3400 -3700 120 21
+DS -3750 -4000 -4000 -3750 120 21
+DS -4000 -3750 -4000 3750 120 21
+DS -4000 3750 -3750 4000 120 21
+DS -3750 4000 3750 4000 120 21
+DS 3750 4000 4000 3750 120 21
+DS 4000 3750 4000 -3750 120 21
+DS 4000 -3750 3750 -4000 120 21
+DS 3750 -4000 -3750 -4000 120 21
+$PAD
+Sh "1" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3445 -4325
+$EndPAD
+$PAD
+Sh "2" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3245 -4325
+$EndPAD
+$PAD
+Sh "3" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 79 "/fpga_io1/io79"
+Po 3050 -4325
+$EndPAD
+$PAD
+Sh "4" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 77 "/fpga_io1/io77"
+Po 2855 -4325
+$EndPAD
+$PAD
+Sh "5" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 81 "/fpga_io1/io80"
+Po 2655 -4325
+$EndPAD
+$PAD
+Sh "6" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 78 "/fpga_io1/io78"
+Po 2460 -4325
+$EndPAD
+$PAD
+Sh "7" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 82 "/fpga_io1/io81"
+Po 2265 -4325
+$EndPAD
+$PAD
+Sh "8" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 83 "/fpga_io1/io82"
+Po 2065 -4325
+$EndPAD
+$PAD
+Sh "9" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 1870 -4325
+$EndPAD
+$PAD
+Sh "10" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 84 "/fpga_io1/io83"
+Po 1675 -4325
+$EndPAD
+$PAD
+Sh "11" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 85 "/fpga_io1/io84"
+Po 1475 -4325
+$EndPAD
+$PAD
+Sh "12" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 86 "/fpga_io1/io85"
+Po 1280 -4325
+$EndPAD
+$PAD
+Sh "13" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 87 "/fpga_io1/io86"
+Po 1085 -4325
+$EndPAD
+$PAD
+Sh "14" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po 885 -4325
+$EndPAD
+$PAD
+Sh "15" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 88 "/fpga_io1/io87"
+Po 690 -4325
+$EndPAD
+$PAD
+Sh "16" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 89 "/fpga_io1/io88"
+Po 495 -4325
+$EndPAD
+$PAD
+Sh "17" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 295 -4325
+$EndPAD
+$PAD
+Sh "18" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 90 "/fpga_io1/io89"
+Po 100 -4325
+$EndPAD
+$PAD
+Sh "19" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 93 "/fpga_io1/io91"
+Po -100 -4325
+$EndPAD
+$PAD
+Sh "20" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 92 "/fpga_io1/io90"
+Po -295 -4325
+$EndPAD
+$PAD
+Sh "21" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 94 "/fpga_io1/io92"
+Po -495 -4325
+$EndPAD
+$PAD
+Sh "22" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 106 "1V2_core"
+Po -690 -4325
+$EndPAD
+$PAD
+Sh "23" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po -885 -4325
+$EndPAD
+$PAD
+Sh "24" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 95 "/fpga_io1/io93"
+Po -1085 -4325
+$EndPAD
+$PAD
+Sh "25" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 96 "/fpga_io1/io94"
+Po -1280 -4325
+$EndPAD
+$PAD
+Sh "26" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po -1475 -4325
+$EndPAD
+$PAD
+Sh "27" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 97 "/fpga_io1/io95"
+Po -1675 -4325
+$EndPAD
+$PAD
+Sh "28" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 99 "/fpga_io1/io97"
+Po -1870 -4325
+$EndPAD
+$PAD
+Sh "29" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 98 "/fpga_io1/io96"
+Po -2065 -4325
+$EndPAD
+$PAD
+Sh "30" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 100 "/fpga_io1/io98"
+Po -2265 -4325
+$EndPAD
+$PAD
+Sh "31" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 101 "/fpga_io1/io99"
+Po -2460 -4325
+$EndPAD
+$PAD
+Sh "32" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "/fpga_io1/io100"
+Po -2655 -4325
+$EndPAD
+$PAD
+Sh "33" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "/fpga_io1/io101"
+Po -2855 -4325
+$EndPAD
+$PAD
+Sh "34" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po -3050 -4325
+$EndPAD
+$PAD
+Sh "35" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "/fpga_io1/io102"
+Po -3245 -4325
+$EndPAD
+$PAD
+Sh "36" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po -3445 -4325
+$EndPAD
+$PAD
+Sh "66" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po -4325 2265
+$EndPAD
+$PAD
+Sh "67" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/fpga_io1/init_b"
+Po -4325 2460
+$EndPAD
+$PAD
+Sh "68" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 74 "/fpga_io1/io72"
+Po -4325 2655
+$EndPAD
+$PAD
+Sh "69" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 75 "/fpga_io1/io73"
+Po -4325 2855
+$EndPAD
+$PAD
+Sh "70" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 76 "/fpga_io1/io75"
+Po -4325 3050
+$EndPAD
+$PAD
+Sh "71" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 102 "/fpga_io1/mosi"
+Po -4325 3245
+$EndPAD
+$PAD
+Sh "72" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 104 "/fpga_io1/sck"
+Po -4325 3445
+$EndPAD
+$PAD
+Sh "114" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "/fpga_io1/io6"
+Po 4325 2460
+$EndPAD
+$PAD
+Sh "115" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 43 "/fpga_io1/io4"
+Po 4325 2265
+$EndPAD
+$PAD
+Sh "116" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 73 "/fpga_io1/io7"
+Po 4325 2065
+$EndPAD
+$PAD
+Sh "117" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 51 "/fpga_io1/io5"
+Po 4325 1870
+$EndPAD
+$PAD
+Sh "118" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 4325 1675
+$EndPAD
+$PAD
+Sh "119" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po 4325 1475
+$EndPAD
+$PAD
+Sh "120" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 80 "/fpga_io1/io8"
+Po 4325 1280
+$EndPAD
+$PAD
+Sh "121" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 91 "/fpga_io1/io9"
+Po 4325 1085
+$EndPAD
+$PAD
+Sh "122" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 106 "1V2_core"
+Po 4325 885
+$EndPAD
+$PAD
+Sh "123" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4325 690
+$EndPAD
+$PAD
+Sh "124" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "/fpga_io1/io10"
+Po 4325 495
+$EndPAD
+$PAD
+Sh "125" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 13 "/fpga_io1/io12"
+Po 4325 295
+$EndPAD
+$PAD
+Sh "126" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "/fpga_io1/io11"
+Po 4325 100
+$EndPAD
+$PAD
+Sh "127" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 14 "/fpga_io1/io13"
+Po 4325 -100
+$EndPAD
+$PAD
+Sh "128" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 4325 -295
+$EndPAD
+$PAD
+Sh "129" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 15 "/fpga_io1/io14"
+Po 4325 -495
+$EndPAD
+$PAD
+Sh "130" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "/fpga_io1/io16"
+Po 4325 -690
+$EndPAD
+$PAD
+Sh "131" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "/fpga_io1/io15"
+Po 4325 -885
+$EndPAD
+$PAD
+Sh "132" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "/fpga_io1/io17"
+Po 4325 -1085
+$EndPAD
+$PAD
+Sh "133" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po 4325 -1280
+$EndPAD
+$PAD
+Sh "134" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "/fpga_io1/io18"
+Po 4325 -1475
+$EndPAD
+$PAD
+Sh "135" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 20 "/fpga_io1/io19"
+Po 4325 -1675
+$EndPAD
+$PAD
+Sh "136" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po 4325 -1870
+$EndPAD
+$PAD
+Sh "137" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 4325 -2065
+$EndPAD
+$PAD
+Sh "138" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "/fpga_io1/io20"
+Po 4325 -2265
+$EndPAD
+$PAD
+Sh "139" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 23 "/fpga_io1/io21"
+Po 4325 -2460
+$EndPAD
+$PAD
+Sh "140" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4325 -2655
+$EndPAD
+$PAD
+Sh "141" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 24 "/fpga_io1/io22"
+Po 4325 -2855
+$EndPAD
+$PAD
+Sh "142" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 26 "/fpga_io1/io24"
+Po 4325 -3050
+$EndPAD
+$PAD
+Sh "143" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 25 "/fpga_io1/io23"
+Po 4325 -3245
+$EndPAD
+$PAD
+Sh "144" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4325 -3445
+$EndPAD
+$PAD
+Sh "37" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 50 "/fpga_io1/io49"
+Po -4325 -3445
+$EndPAD
+$PAD
+Sh "38" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 52 "/fpga_io1/io50"
+Po -4325 -3245
+$EndPAD
+$PAD
+Sh "39" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "/fpga_io1/io51"
+Po -4325 -3050
+$EndPAD
+$PAD
+Sh "40" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po -4325 -2855
+$EndPAD
+$PAD
+Sh "41" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 54 "/fpga_io1/io52"
+Po -4325 -2655
+$EndPAD
+$PAD
+Sh "42" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 55 "/fpga_io1/io53"
+Po -4325 -2460
+$EndPAD
+$PAD
+Sh "43" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 57 "/fpga_io1/io55"
+Po -4325 -2265
+$EndPAD
+$PAD
+Sh "44" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 56 "/fpga_io1/io54"
+Po -4325 -2065
+$EndPAD
+$PAD
+Sh "45" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 58 "/fpga_io1/io56"
+Po -4325 -1870
+$EndPAD
+$PAD
+Sh "46" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 59 "/fpga_io1/io57"
+Po -4325 -1675
+$EndPAD
+$PAD
+Sh "47" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 61 "/fpga_io1/io59"
+Po -4325 -1475
+$EndPAD
+$PAD
+Sh "48" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 60 "/fpga_io1/io58"
+Po -4325 -1280
+$EndPAD
+$PAD
+Sh "49" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 63 "/fpga_io1/io60"
+Po -4325 -1085
+$EndPAD
+$PAD
+Sh "50" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 64 "/fpga_io1/io61"
+Po -4325 -885
+$EndPAD
+$PAD
+Sh "51" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 65 "/fpga_io1/io62"
+Po -4325 -690
+$EndPAD
+$PAD
+Sh "52" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 106 "1V2_core"
+Po -4325 -495
+$EndPAD
+$PAD
+Sh "53" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4325 -295
+$EndPAD
+$PAD
+Sh "54" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 66 "/fpga_io1/io63"
+Po -4325 -100
+$EndPAD
+$PAD
+Sh "55" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 67 "/fpga_io1/io64"
+Po -4325 100
+$EndPAD
+$PAD
+Sh "56" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po -4325 295
+$EndPAD
+$PAD
+Sh "57" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 68 "/fpga_io1/io65"
+Po -4325 495
+$EndPAD
+$PAD
+Sh "58" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 70 "/fpga_io1/io67"
+Po -4325 690
+$EndPAD
+$PAD
+Sh "59" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 69 "/fpga_io1/io66"
+Po -4325 885
+$EndPAD
+$PAD
+Sh "60" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 71 "/fpga_io1/io68"
+Po -4325 1085
+$EndPAD
+$PAD
+Sh "61" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po -4325 1280
+$EndPAD
+$PAD
+Sh "62" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4325 1475
+$EndPAD
+$PAD
+Sh "63" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 72 "/fpga_io1/io69"
+Po -4325 1675
+$EndPAD
+$PAD
+Sh "64" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/fpga_io1/dout"
+Po -4325 1870
+$EndPAD
+$PAD
+Sh "65" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po -4325 2065
+$EndPAD
+$PAD
+Sh "78" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 29 "/fpga_io1/io27"
+Po -2460 4325
+$EndPAD
+$PAD
+Sh "79" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 27 "/fpga_io1/io25"
+Po -2265 4325
+$EndPAD
+$PAD
+Sh "80" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2065 4325
+$EndPAD
+$PAD
+Sh "81" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po -1870 4325
+$EndPAD
+$PAD
+Sh "82" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 33 "/fpga_io1/io30"
+Po -1675 4325
+$EndPAD
+$PAD
+Sh "83" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 35 "/fpga_io1/io32"
+Po -1475 4325
+$EndPAD
+$PAD
+Sh "84" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 34 "/fpga_io1/io31"
+Po -1280 4325
+$EndPAD
+$PAD
+Sh "85" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 36 "/fpga_io1/io33"
+Po -1085 4325
+$EndPAD
+$PAD
+Sh "86" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po -885 4325
+$EndPAD
+$PAD
+Sh "87" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 37 "/fpga_io1/io34"
+Po -690 4325
+$EndPAD
+$PAD
+Sh "88" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 38 "/fpga_io1/io35"
+Po -495 4325
+$EndPAD
+$PAD
+Sh "89" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po -295 4325
+$EndPAD
+$PAD
+Sh "90" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 39 "/fpga_io1/io36"
+Po -100 4325
+$EndPAD
+$PAD
+Sh "91" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 41 "/fpga_io1/io38"
+Po 100 4325
+$EndPAD
+$PAD
+Sh "92" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 40 "/fpga_io1/io37"
+Po 295 4325
+$EndPAD
+$PAD
+Sh "93" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 42 "/fpga_io1/io39"
+Po 495 4325
+$EndPAD
+$PAD
+Sh "94" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 106 "1V2_core"
+Po 690 4325
+$EndPAD
+$PAD
+Sh "95" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po 885 4325
+$EndPAD
+$PAD
+Sh "96" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 44 "/fpga_io1/io40"
+Po 1085 4325
+$EndPAD
+$PAD
+Sh "97" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1280 4325
+$EndPAD
+$PAD
+Sh "98" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 45 "/fpga_io1/io41"
+Po 1475 4325
+$EndPAD
+$PAD
+Sh "99" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 46 "/fpga_io1/io42"
+Po 1675 4325
+$EndPAD
+$PAD
+Sh "100" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 1870 4325
+$EndPAD
+$PAD
+Sh "101" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 47 "/fpga_io1/io43"
+Po 2065 4325
+$EndPAD
+$PAD
+Sh "102" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 48 "/fpga_io1/io44"
+Po 2265 4325
+$EndPAD
+$PAD
+Sh "103" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 49 "/fpga_io1/io46"
+Po 2460 4325
+$EndPAD
+$PAD
+Sh "104" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 103 "/fpga_io1/rx"
+Po 2655 4325
+$EndPAD
+$PAD
+Sh "105" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 105 "/fpga_io1/tx"
+Po 2855 4325
+$EndPAD
+$PAD
+Sh "106" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "GND"
+Po 3050 4325
+$EndPAD
+$PAD
+Sh "107" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3245 4325
+$EndPAD
+$PAD
+Sh "108" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "3V3"
+Po 3445 4325
+$EndPAD
+$PAD
+Sh "73" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/fpga_io1/done"
+Po -3445 4325
+$EndPAD
+$PAD
+Sh "74" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3245 4325
+$EndPAD
+$PAD
+Sh "75" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 30 "/fpga_io1/io28"
+Po -3050 4325
+$EndPAD
+$PAD
+Sh "76" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 28 "/fpga_io1/io26"
+Po -2855 4325
+$EndPAD
+$PAD
+Sh "77" R 100 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 31 "/fpga_io1/io29"
+Po -2655 4325
+$EndPAD
+$PAD
+Sh "109" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4325 3445
+$EndPAD
+$PAD
+Sh "110" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/fpga_io1/io0"
+Po 4325 3245
+$EndPAD
+$PAD
+Sh "111" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "/fpga_io1/io1"
+Po 4325 3050
+$EndPAD
+$PAD
+Sh "112" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 21 "/fpga_io1/io2"
+Po 4325 2855
+$EndPAD
+$PAD
+Sh "113" R 600 100 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 32 "/fpga_io1/io3"
+Po 4325 2655
+$EndPAD
+$SHAPE3D
+Na "smd/tqfp144.wrl"
+Sc 0.394000 0.394000 0.400000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  TQFP144
+$MODULE PIN_ARRAY_5x2
+Po 49000 25000 1800 15 3FCF2109 4FDE4125 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4125
+AR /4FDA1D6B/4FDA2D24
+Op 0 0 0
+T0 250 -1500 400 400 1800 80 N V 21 N "P10"
+T1 0 -1500 400 400 1800 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 4 "/fpga_io1/dout"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 5 "/fpga_io1/init_b"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 74 "/fpga_io1/io72"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 75 "/fpga_io1/io73"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 76 "/fpga_io1/io75"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 102 "/fpga_io1/mosi"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 104 "/fpga_io1/sck"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 30 "/fpga_io1/io28"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 70000 25000 0 15 3FCF2109 4FDE4127 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4127
+AR /4FDA1D6B/4FDA267E
+Op 0 0 0
+T0 250 -1500 400 400 0 80 N V 21 N "P1"
+T1 0 -1500 400 400 0 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 6 "/fpga_io1/io0"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 7 "/fpga_io1/io1"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 21 "/fpga_io1/io2"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 32 "/fpga_io1/io3"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 62 "/fpga_io1/io6"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 43 "/fpga_io1/io4"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 73 "/fpga_io1/io7"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 51 "/fpga_io1/io5"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 65000 30000 2700 15 3FCF2109 4FDE412B ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE412B
+AR /4FDA1D6B/4FDA2D3E
+Op 0 0 0
+T0 250 -1500 400 400 2700 80 N V 21 N "P13"
+T1 0 -1500 400 400 2700 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 46 "/fpga_io1/io42"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 47 "/fpga_io1/io43"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 48 "/fpga_io1/io44"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 49 "/fpga_io1/io46"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 108 "5V"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 108 "5V"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 60000 30000 2700 15 3FCF2109 4FDE412D ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE412D
+AR /4FDA1D6B/4FDA2D32
+Op 0 0 0
+T0 250 -1500 400 400 2700 80 N V 21 N "P12"
+T1 0 -1500 400 400 2700 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 37 "/fpga_io1/io34"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 38 "/fpga_io1/io35"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 39 "/fpga_io1/io36"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 41 "/fpga_io1/io38"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 40 "/fpga_io1/io37"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 42 "/fpga_io1/io39"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 44 "/fpga_io1/io40"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 45 "/fpga_io1/io41"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 55000 30000 2700 15 3FCF2109 4FDE412F ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE412F
+AR /4FDA1D6B/4FDA2D2D
+Op 0 0 0
+T0 250 -1500 400 400 2700 80 N V 21 N "P11"
+T1 0 -1500 400 400 2700 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 28 "/fpga_io1/io26"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 31 "/fpga_io1/io29"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 29 "/fpga_io1/io27"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 27 "/fpga_io1/io25"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 33 "/fpga_io1/io30"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 35 "/fpga_io1/io32"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 34 "/fpga_io1/io31"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 36 "/fpga_io1/io33"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 70000 20000 0 15 3FCF2109 4FDE4131 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4131
+AR /4FDA1D6B/4FDA268F
+Op 0 0 0
+T0 250 -1500 400 400 0 80 N V 21 N "P2"
+T1 0 -1500 400 400 0 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 80 "/fpga_io1/io8"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 91 "/fpga_io1/io9"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 8 "/fpga_io1/io10"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 13 "/fpga_io1/io12"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 12 "/fpga_io1/io11"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 14 "/fpga_io1/io13"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 15 "/fpga_io1/io14"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 17 "/fpga_io1/io16"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 49000 20000 1800 15 3FCF2109 4FDE4133 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4133
+AR /4FDA1D6B/4FDA2D13
+Op 0 0 0
+T0 250 -1500 400 400 1800 80 N V 21 N "P9"
+T1 0 -1500 400 400 1800 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 65 "/fpga_io1/io62"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 66 "/fpga_io1/io63"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 67 "/fpga_io1/io64"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 68 "/fpga_io1/io65"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 70 "/fpga_io1/io67"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 69 "/fpga_io1/io66"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 71 "/fpga_io1/io68"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 72 "/fpga_io1/io69"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 49000 15000 1800 15 3FCF2109 4FDE4135 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4135
+AR /4FDA1D6B/4FDA2B42
+Op 0 0 0
+T0 250 -1500 400 400 1800 80 N V 21 N "P8"
+T1 0 -1500 400 400 1800 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 57 "/fpga_io1/io55"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 56 "/fpga_io1/io54"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 58 "/fpga_io1/io56"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 59 "/fpga_io1/io57"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 61 "/fpga_io1/io59"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 60 "/fpga_io1/io58"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 63 "/fpga_io1/io60"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 64 "/fpga_io1/io61"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 49000 10000 1800 15 3FCF2109 4FDE4137 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4137
+AR /4FDA1D6B/4FDA2B3C
+Op 0 0 0
+T0 250 -1500 400 400 1800 80 N V 21 N "P7"
+T1 0 -1500 400 400 1800 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 9 "/fpga_io1/io100"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 10 "/fpga_io1/io101"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 11 "/fpga_io1/io102"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 50 "/fpga_io1/io49"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 52 "/fpga_io1/io50"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 53 "/fpga_io1/io51"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 54 "/fpga_io1/io52"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 55 "/fpga_io1/io53"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 55000 10000 2700 15 3FCF2109 4FDE4139 ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE4139
+AR /4FDA1D6B/4FDA2B33
+Op 0 0 0
+T0 250 -1500 400 400 2700 80 N V 21 N "P6"
+T1 0 -1500 400 400 2700 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 94 "/fpga_io1/io92"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 95 "/fpga_io1/io93"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 96 "/fpga_io1/io94"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 97 "/fpga_io1/io95"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 99 "/fpga_io1/io97"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 98 "/fpga_io1/io96"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 100 "/fpga_io1/io98"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 101 "/fpga_io1/io99"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 60000 10000 2700 15 3FCF2109 4FDE413B ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE413B
+AR /4FDA1D6B/4FDA2B2C
+Op 0 0 0
+T0 250 -1500 400 400 2700 80 N V 21 N "P5"
+T1 0 -1500 400 400 2700 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 85 "/fpga_io1/io84"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 86 "/fpga_io1/io85"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 87 "/fpga_io1/io86"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 88 "/fpga_io1/io87"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 89 "/fpga_io1/io88"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 90 "/fpga_io1/io89"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 93 "/fpga_io1/io91"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 92 "/fpga_io1/io90"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 65000 10000 2700 15 3FCF2109 4FDE413D ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE413D
+AR /4FDA1D6B/4FDA2693
+Op 0 0 0
+T0 250 -1500 400 400 2700 80 N V 21 N "P4"
+T1 0 -1500 400 400 2700 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 25 "/fpga_io1/io23"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 79 "/fpga_io1/io79"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 77 "/fpga_io1/io77"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 81 "/fpga_io1/io80"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 78 "/fpga_io1/io78"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 82 "/fpga_io1/io81"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 83 "/fpga_io1/io82"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 84 "/fpga_io1/io83"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE PIN_ARRAY_5x2
+Po 70000 15000 1800 15 3FCF2109 4FDE413F ~~
+Li PIN_ARRAY_5x2
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 4FDE413F
+AR /4FDA1D6B/4FDA2687
+Op 0 0 0
+T0 250 -1500 400 400 1800 80 N V 21 N "P3"
+T1 0 -1500 400 400 1800 80 N I 21 N "CONN_5X2"
+DS -2500 -1000 2500 -1000 120 21
+DS 2500 -1000 2500 1000 120 21
+DS 2500 1000 -2500 1000 120 21
+DS -2500 1000 -2500 -1000 120 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 109 "GND"
+Po -2000 500
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 107 "3V3"
+Po -2000 -500
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 16 "/fpga_io1/io15"
+Po -1000 500
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 18 "/fpga_io1/io17"
+Po -1000 -500
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 19 "/fpga_io1/io18"
+Po 0 500
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 20 "/fpga_io1/io19"
+Po 0 -500
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 22 "/fpga_io1/io20"
+Po 1000 500
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 23 "/fpga_io1/io21"
+Po 1000 -500
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 24 "/fpga_io1/io22"
+Po 2000 500
+$EndPAD
+$PAD
+Sh "10" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 26 "/fpga_io1/io24"
+Po 2000 -500
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_5x2
+$MODULE SM0603
+Po 60433 22638 900 0 4E43A3D1 4FDE410B ~~
+Li SM0603
+Sc 4FDE410B
+AR /4FDA1D6B/4FDA25E9
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 900 45 M V 20 N "C1"
+T1 0 0 200 180 900 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 106 "1V2_core"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 62402 20866 1800 0 4E43A3D1 4FDEF107 ~~
+Li SM0603
+Sc 4FDEF107
+AR /4FDA1D6B/4FDA25E7
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 1800 45 M V 20 N "C2"
+T1 0 0 200 180 1800 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 1800
+Dr 0 0 0
+At SMD N 00440001
+Ne 106 "1V2_core"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 1800
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 59055 17323 2700 0 4E43A3D1 4FDE411B ~~
+Li SM0603
+Sc 4FDE411B
+AR /4FDA1D6B/4FDA25E4
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 2700 45 M V 20 N "C3"
+T1 0 0 200 180 2700 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 2700
+Dr 0 0 0
+At SMD N 00440001
+Ne 106 "1V2_core"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 2700
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 57087 19685 0 0 4E43A3D1 4FDE411D ~~
+Li SM0603
+Sc 4FDE411D
+AR /4FDA1D6B/4FDA25E2
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 0 45 M V 20 N "C4"
+T1 0 0 200 180 0 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 106 "1V2_core"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 60630 17323 2700 0 4E43A3D1 4FDE411F ~~
+Li SM0603
+Sc 4FDE411F
+AR /4FDA1D6B/4FDA25DF
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 2700 45 M V 20 N "C5"
+T1 0 0 200 180 2700 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 2700
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 2700
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 62402 17913 1800 0 4E43A3D1 4FDE4123 ~~
+Li SM0603
+Sc 4FDE4123
+AR /4FDA1D6B/4FDA25CB
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 1800 45 M V 20 N "C6"
+T1 0 0 200 180 1800 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 1800
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 1800
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 57087 21063 0 0 4E43A3D1 4FDEF0B4 ~~
+Li SM0603
+Sc 4FDEF0B4
+AR /4FDA1D6B/4FDA25CE
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 0 45 M V 20 N "C7"
+T1 0 0 200 180 0 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 58858 22638 900 0 4E43A3D1 4FDE4117 ~~
+Li SM0603
+Sc 4FDE4117
+AR /4FDA1D6B/4FDA25D0
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 900 45 M V 20 N "C8"
+T1 0 0 200 180 900 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 57087 22146 0 0 4E43A3D1 4FDE4115 ~~
+Li SM0603
+Sc 4FDE4115
+AR /4FDA1D6B/4FDA25D2
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 0 45 M V 20 N "C9"
+T1 0 0 200 180 0 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 57087 17717 0 0 4E43A3D1 4FDE4113 ~~
+Li SM0603
+Sc 4FDE4113
+AR /4FDA1D6B/4FDA25D4
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 0 45 M V 20 N "C10"
+T1 0 0 200 180 0 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 61417 22638 900 0 4E43A3D1 4FDE4111 ~~
+Li SM0603
+Sc 4FDE4111
+AR /4FDA1D6B/4FDA25D9
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 900 45 M V 20 N "C11"
+T1 0 0 200 180 900 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
+$MODULE SM0603
+Po 62402 22638 900 0 4E43A3D1 4FDE410F ~~
+Li SM0603
+Sc 4FDE410F
+AR /4FDA1D6B/4FDA2638
+Op 0 0 0
+At SMD 
+T0 0 0 200 180 900 45 M V 20 N "C12"
+T1 0 0 200 180 900 45 M I 20 N "C"
+DS -450 250 450 250 50 20
+DS 450 250 450 -250 50 20
+DS 450 -250 -450 -250 50 20
+DS -450 -250 -450 250 50 20
+$PAD
+Sh "1" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 107 "3V3"
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 900
+Dr 0 0 0
+At SMD N 00440001
+Ne 109 "GND"
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.500000 0.500000 0.500000
+Of 0.000000 0.000000 0.001000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0603
 $TRACK
+Po 0 52100 22700 51300 22700 80 -1
+De 15 0 4 0 0
+Po 0 52930 21870 52100 22700 80 -1
+De 15 0 4 0 0
+Po 0 55475 21870 52930 21870 80 -1
+De 15 0 4 0 400000
+Po 0 50000 24000 50000 24500 80 -1
+De 15 0 4 0 800000
+Po 0 51300 22700 50000 24000 80 -1
+De 15 0 4 0 0
+Po 0 52638 22460 52165 22933 80 -1
+De 15 0 5 0 0
+Po 0 50492 25008 50000 25500 80 -1
+De 15 0 5 0 800000
+Po 0 55475 22460 52638 22460 80 -1
+De 15 0 5 0 400000
+Po 0 50492 24016 50492 25008 80 -1
+De 15 0 5 0 0
+Po 0 51575 22933 50492 24016 80 -1
+De 15 0 5 0 0
+Po 0 52165 22933 51575 22933 80 -1
+De 15 0 5 0 0
+Po 0 67745 23245 68500 24000 80 -1
+De 15 0 6 0 0
+Po 0 68500 24000 68500 25000 80 -1
+De 15 0 6 0 0
+Po 0 68500 25000 69000 25500 80 -1
+De 15 0 6 0 800000
+Po 0 64125 23245 67745 23245 80 -1
+De 15 0 6 0 400000
+Po 0 64125 23050 68050 23050 80 -1
+De 15 0 7 0 400000
+Po 0 69000 24000 69000 24500 80 -1
+De 15 0 7 0 800000
+Po 0 68050 23050 69000 24000 80 -1
+De 15 0 7 0 0
+Po 0 67900 18700 69200 18700 80 -1
+De 15 0 8 0 0
+Po 0 69500 20000 69500 19000 80 -1
+De 15 0 8 0 0
+Po 0 69200 18700 69500 19000 80 -1
+De 15 0 8 0 0
+Po 0 69500 20000 70000 20500 80 -1
+De 15 0 8 0 800000
+Po 0 66105 20495 67900 18700 80 -1
+De 15 0 8 0 0
+Po 0 64125 20495 66105 20495 80 -1
+De 15 0 8 0 400000
+Po 0 55800 13800 53400 13800 80 -1
+De 15 0 9 0 0
+Po 0 57145 15145 55800 13800 80 -1
+De 15 0 9 0 0
+Po 0 51900 12400 50500 11000 80 -1
+De 15 0 9 0 0
+Po 0 53400 13800 52000 12400 80 -1
+De 15 0 9 0 0
+Po 0 50500 10000 50000 9500 80 -1
+De 15 0 9 0 800000
+Po 0 50500 11000 50500 10000 80 -1
+De 15 0 9 0 0
+Po 0 52000 12400 51900 12400 80 -1
+De 15 0 9 0 0
+Po 0 57145 15675 57145 15145 80 -1
+De 15 0 9 0 400000
+Po 0 56945 15675 56945 15245 80 -1
+De 15 0 10 0 400000
+Po 0 51900 12600 51600 12600 80 -1
+De 15 0 10 0 0
+Po 0 56945 15245 55700 14000 80 -1
+De 15 0 10 0 0
+Po 0 50000 11000 50000 10500 80 -1
+De 15 0 10 0 800000
+Po 0 51600 12600 50000 11000 80 -1
+De 15 0 10 0 0
+Po 0 53300 14000 51900 12600 80 -1
+De 15 0 10 0 0
+Po 0 55700 14000 53300 14000 80 -1
+De 15 0 10 0 0
+Po 0 56555 15675 56555 15155 80 -1
+De 15 0 11 0 400000
+Po 0 49500 10000 49500 11000 80 -1
+De 15 0 11 0 0
+Po 0 56555 15155 55600 14200 80 -1
+De 15 0 11 0 0
+Po 0 50300 11800 49500 11000 80 -1
+De 15 0 11 0 0
+Po 0 51800 12800 51300 12800 80 -1
+De 15 0 11 0 0
+Po 0 51300 12800 50300 11800 80 -1
+De 15 0 11 0 0
+Po 0 53200 14200 51800 12800 80 -1
+De 15 0 11 0 0
+Po 0 55600 14200 53200 14200 80 -1
+De 15 0 11 0 0
+Po 0 49500 10000 49000 9500 80 -1
+De 15 0 11 0 800000
+Po 0 67700 18300 69800 18300 80 -1
+De 15 0 12 0 0
+Po 0 70500 20000 70500 19000 80 -1
+De 15 0 12 0 0
+Po 0 69800 18300 70500 19000 80 -1
+De 15 0 12 0 0
+Po 0 65900 20100 67700 18300 80 -1
+De 15 0 12 0 0
+Po 0 65800 20100 65900 20100 80 -1
+De 15 0 12 0 0
+Po 0 64125 20100 65800 20100 80 -1
+De 15 0 12 0 400000
+Po 0 70500 20000 71000 20500 80 -1
+De 15 0 12 0 800000
+Po 0 69500 18500 70000 19000 80 -1
+De 15 0 13 0 0
+Po 0 67800 18500 69500 18500 80 -1
+De 15 0 13 0 0
+Po 0 70000 19000 70000 19500 80 -1
+De 15 0 13 0 800000
+Po 0 66005 20295 67800 18500 80 -1
+De 15 0 13 0 0
+Po 0 64125 20295 66005 20295 80 -1
+De 15 0 13 0 400000
+Po 0 71000 19000 71000 19500 80 -1
+De 15 0 14 0 800000
+Po 0 64125 19900 65800 19900 80 -1
+De 15 0 14 0 400000
+Po 0 70100 18100 71000 19000 80 -1
+De 15 0 14 0 0
+Po 0 67600 18100 70100 18100 80 -1
+De 15 0 14 0 0
+Po 0 65800 19900 67600 18100 80 -1
+De 15 0 14 0 0
+Po 0 70400 17900 71500 19000 80 -1
+De 15 0 15 0 0
+Po 0 71500 20000 72000 20500 80 -1
+De 15 0 15 0 800000
+Po 0 67500 17900 70400 17900 80 -1
+De 15 0 15 0 0
+Po 0 71500 20000 71500 19000 80 -1
+De 15 0 15 0 0
+Po 0 64125 19505 65895 19505 80 -1
+De 15 0 15 0 400000
+Po 0 65895 19505 67500 17900 80 -1
+De 15 0 15 0 0
+Po 0 65685 19115 67300 17500 80 -1
+De 15 0 16 0 0
+Po 0 71500 15000 71000 14500 80 -1
+De 15 0 16 0 800000
+Po 0 71500 15000 71500 16000 80 -1
+De 15 0 16 0 0
+Po 0 70000 17500 71500 16000 80 -1
+De 15 0 16 0 0
+Po 0 67300 17500 70000 17500 80 -1
+De 15 0 16 0 0
+Po 0 64125 19115 65685 19115 80 -1
+De 15 0 16 0 400000
+Po 0 72000 19000 72000 19500 80 -1
+De 15 0 17 0 800000
+Po 0 65790 19310 67400 17700 80 -1
+De 15 0 17 0 0
+Po 0 67400 17700 70700 17700 80 -1
+De 15 0 17 0 0
+Po 0 64125 19310 65790 19310 80 -1
+De 15 0 17 0 400000
+Po 0 70700 17700 72000 19000 80 -1
+De 15 0 17 0 0
+Po 0 69700 17300 71000 16000 80 -1
+De 15 0 18 0 0
+Po 0 64125 18915 65585 18915 80 -1
+De 15 0 18 0 400000
+Po 0 65585 18915 67200 17300 80 -1
+De 15 0 18 0 0
+Po 0 67200 17300 69700 17300 80 -1
+De 15 0 18 0 0
+Po 0 71000 16000 71000 15500 80 -1
+De 15 0 18 0 800000
+Po 0 67100 17100 69400 17100 80 -1
+De 15 0 19 0 0
+Po 0 69400 17100 70500 16000 80 -1
+De 15 0 19 0 0
+Po 0 64125 18525 65675 18525 80 -1
+De 15 0 19 0 400000
+Po 0 70500 15000 70500 16000 80 -1
+De 15 0 19 0 0
+Po 0 65675 18525 67100 17100 80 -1
+De 15 0 19 0 0
+Po 0 70500 15000 70000 14500 80 -1
+De 15 0 19 0 800000
+Po 0 64125 18325 65575 18325 80 -1
+De 15 0 20 0 400000
+Po 0 70000 16000 70000 15500 80 -1
+De 15 0 20 0 800000
+Po 0 69100 16900 70000 16000 80 -1
+De 15 0 20 0 0
+Po 0 67000 16900 69100 16900 80 -1
+De 15 0 20 0 0
+Po 0 65575 18325 67000 16900 80 -1
+De 15 0 20 0 0
+Po 0 69500 25000 69500 24000 80 -1
+De 15 0 21 0 0
+Po 0 69500 25000 70000 25500 80 -1
+De 15 0 21 0 800000
+Po 0 64125 22855 68355 22855 80 -1
+De 15 0 21 0 400000
+Po 0 68355 22855 69500 24000 80 -1
+De 15 0 21 0 0
+Po 0 69500 15000 69500 16000 80 -1
+De 15 0 22 0 0
+Po 0 69500 15000 69000 14500 80 -1
+De 15 0 22 0 800000
+Po 0 68800 16700 69500 16000 80 -1
+De 15 0 22 0 0
+Po 0 64125 17735 65865 17735 80 -1
+De 15 0 22 0 400000
+Po 0 65865 17735 66900 16700 80 -1
+De 15 0 22 0 0
+Po 0 66900 16700 68800 16700 80 -1
+De 15 0 22 0 0
+Po 0 65760 17540 66800 16500 80 -1
+De 15 0 23 0 0
+Po 0 68500 16500 69000 16000 80 -1
+De 15 0 23 0 0
+Po 0 66800 16500 68500 16500 80 -1
+De 15 0 23 0 0
+Po 0 69000 16000 69000 15500 80 -1
+De 15 0 23 0 800000
+Po 0 64125 17540 65760 17540 80 -1
+De 15 0 23 0 400000
+Po 0 68500 15000 68000 14500 80 -1
+De 15 0 24 0 800000
+Po 0 68200 16300 68500 16000 80 -1
+De 15 0 24 0 0
+Po 0 66700 16300 68200 16300 80 -1
+De 15 0 24 0 0
+Po 0 64125 17145 65855 17145 80 -1
+De 15 0 24 0 400000
+Po 0 68500 15000 68500 16000 80 -1
+De 15 0 24 0 0
+Po 0 65855 17145 66700 16300 80 -1
+De 15 0 24 0 0
+Po 0 64700 15400 64700 16600 80 -1
+De 15 0 25 0 0
+Po 0 64700 16600 64545 16755 80 -1
+De 15 0 25 0 0
+Po 0 67300 9700 67300 12800 80 -1
+De 15 0 25 0 0
+Po 0 64545 16755 64125 16755 80 -1
+De 15 0 25 0 800000
+Po 0 67300 12800 64700 15400 80 -1
+De 15 0 25 0 0
+Po 0 65000 8500 66100 8500 80 -1
+De 15 0 25 0 0
+Po 0 64500 9000 65000 8500 80 -1
+De 15 0 25 0 400000
+Po 0 66100 8500 67300 9700 80 -1
+De 15 0 25 0 0
+Po 0 64125 16950 65750 16950 80 -1
+De 15 0 26 0 400000
+Po 0 65750 16950 67200 15500 80 -1
+De 15 0 26 0 0
+Po 0 67200 15500 68000 15500 80 -1
+De 15 0 26 0 800000
+Po 0 56000 30000 55500 30000 80 -1
+De 15 0 27 0 800000
+Po 0 57535 28465 56000 30000 80 -1
+De 15 0 27 0 0
+Po 0 57535 24325 57535 28465 80 -1
+De 15 0 27 0 400000
+Po 0 56945 27555 56000 28500 80 -1
+De 15 0 28 0 0
+Po 0 55000 28500 56000 28500 80 -1
+De 15 0 28 0 0
+Po 0 55000 28500 54500 29000 80 -1
+De 15 0 28 0 800000
+Po 0 56945 24325 56945 27555 80 -1
+De 15 0 28 0 400000
+Po 0 55000 29500 56000 29500 80 -1
+De 15 0 29 0 0
+Po 0 57340 24325 57340 28160 80 -1
+De 15 0 29 0 400000
+Po 0 57340 28160 56000 29500 80 -1
+De 15 0 29 0 0
+Po 0 55000 29500 54500 30000 80 -1
+De 15 0 29 0 800000
+Po 0 47000 26000 48200 27200 80 -1
+De 15 0 30 0 0
+Po 0 53700 25300 56300 25300 80 -1
+De 15 0 30 0 0
+Po 0 56750 24850 56750 24325 80 -1
+De 15 0 30 0 800000
+Po 0 47000 25500 47000 26000 80 -1
+De 15 0 30 0 400000
+Po 0 51800 27200 53700 25300 80 -1
+De 15 0 30 0 0
+Po 0 56300 25300 56750 24850 80 -1
+De 15 0 30 0 0
+Po 0 48200 27200 51800 27200 80 -1
+De 15 0 30 0 0
+Po 0 56000 29000 55500 29000 80 -1
+De 15 0 31 0 800000
+Po 0 57145 27855 56000 29000 80 -1
+De 15 0 31 0 0
+Po 0 57145 24325 57145 27855 80 -1
+De 15 0 31 0 400000
+Po 0 64125 22655 68655 22655 80 -1
+De 15 0 32 0 400000
+Po 0 68655 22655 70000 24000 80 -1
+De 15 0 32 0 0
+Po 0 70000 24000 70000 24500 80 -1
+De 15 0 32 0 800000
+Po 0 55000 30500 54500 31000 80 -1
+De 15 0 33 0 800000
+Po 0 58125 24325 58125 28375 80 -1
+De 15 0 33 0 400000
+Po 0 58125 28375 56000 30500 80 -1
+De 15 0 33 0 0
+Po 0 55000 30500 56000 30500 80 -1
+De 15 0 33 0 0
+Po 0 58520 28980 56000 31500 80 -1
+De 15 0 34 0 0
+Po 0 58520 24325 58520 28980 80 -1
+De 15 0 34 0 400000
+Po 0 55000 31500 56000 31500 80 -1
+De 15 0 34 0 0
+Po 0 55000 31500 54500 32000 80 -1
+De 15 0 34 0 800000
+Po 0 58325 28675 56000 31000 80 -1
+De 15 0 35 0 0
+Po 0 56000 31000 55500 31000 80 -1
+De 15 0 35 0 800000
+Po 0 58325 24325 58325 28675 80 -1
+De 15 0 35 0 400000
+Po 0 58715 29285 56000 32000 80 -1
+De 15 0 36 0 0
+Po 0 56000 32000 55500 32000 80 -1
+De 15 0 36 0 800000
+Po 0 58715 24325 58715 29285 80 -1
+De 15 0 36 0 400000
+Po 0 61100 28200 61100 27800 80 -1
+De 15 0 37 0 0
+Po 0 60800 28500 61100 28200 80 -1
+De 15 0 37 0 0
+Po 0 60000 28500 60800 28500 80 -1
+De 15 0 37 0 0
+Po 0 59110 25810 59110 24325 80 -1
+De 15 0 37 0 800000
+Po 0 61100 27800 59110 25810 80 -1
+De 15 0 37 0 0
+Po 0 59500 29000 60000 28500 80 -1
+De 15 0 37 0 400000
+Po 0 59305 24325 59305 25705 80 -1
+De 15 0 38 0 400000
+Po 0 61000 29000 60500 29000 80 -1
+De 15 0 38 0 800000
+Po 0 59305 25705 61300 27700 80 -1
+De 15 0 38 0 0
+Po 0 61300 28700 61000 29000 80 -1
+De 15 0 38 0 0
+Po 0 61300 27700 61300 28700 80 -1
+De 15 0 38 0 0
+Po 0 60000 29500 61000 29500 80 -1
+De 15 0 39 0 0
+Po 0 59700 25800 61500 27600 80 -1
+De 15 0 39 0 0
+Po 0 61500 27600 61500 29000 80 -1
+De 15 0 39 0 0
+Po 0 60000 29500 59500 30000 80 -1
+De 15 0 39 0 800000
+Po 0 61500 29000 61000 29500 80 -1
+De 15 0 39 0 0
+Po 0 59700 24325 59700 25800 80 -1
+De 15 0 39 0 400000
+Po 0 61900 27400 61900 29600 80 -1
+De 15 0 40 0 0
+Po 0 60000 30500 59500 31000 80 -1
+De 15 0 40 0 800000
+Po 0 60000 30500 61000 30500 80 -1
+De 15 0 40 0 0
+Po 0 60095 24325 60095 25595 80 -1
+De 15 0 40 0 400000
+Po 0 61900 29600 61000 30500 80 -1
+De 15 0 40 0 0
+Po 0 60095 25595 61900 27400 80 -1
+De 15 0 40 0 0
+Po 0 59900 25700 61700 27500 80 -1
+De 15 0 41 0 0
+Po 0 61700 29300 61000 30000 80 -1
+De 15 0 41 0 0
+Po 0 59900 24325 59900 25700 80 -1
+De 15 0 41 0 400000
+Po 0 61000 30000 60500 30000 80 -1
+De 15 0 41 0 800000
+Po 0 61700 27500 61700 29300 80 -1
+De 15 0 41 0 0
+Po 0 62100 29900 61000 31000 80 -1
+De 15 0 42 0 0
+Po 0 61000 31000 60500 31000 80 -1
+De 15 0 42 0 800000
+Po 0 62100 27300 62100 29900 80 -1
+De 15 0 42 0 0
+Po 0 60295 24325 60295 25495 80 -1
+De 15 0 42 0 400000
+Po 0 60295 25495 62100 27300 80 -1
+De 15 0 42 0 0
+Po 0 64125 22265 69265 22265 80 -1
+De 15 0 43 0 400000
+Po 0 69265 22265 71000 24000 80 -1
+De 15 0 43 0 0
+Po 0 71000 24000 71000 24500 80 -1
+De 15 0 43 0 800000
+Po 0 60000 31500 61000 31500 80 -1
+De 15 0 44 0 0
+Po 0 62300 27200 62300 30200 80 -1
+De 15 0 44 0 0
+Po 0 60000 31500 59500 32000 80 -1
+De 15 0 44 0 800000
+Po 0 62300 30200 61000 31500 80 -1
+De 15 0 44 0 0
+Po 0 60885 24325 60885 25785 80 -1
+De 15 0 44 0 400000
+Po 0 60885 25785 62300 27200 80 -1
+De 15 0 44 0 0
+Po 0 62500 27100 62500 30500 80 -1
+De 15 0 45 0 0
+Po 0 61275 24325 61275 25875 80 -1
+De 15 0 45 0 400000
+Po 0 62500 30500 61000 32000 80 -1
+De 15 0 45 0 0
+Po 0 61000 32000 60500 32000 80 -1
+De 15 0 45 0 800000
+Po 0 61275 25875 62500 27100 80 -1
+De 15 0 45 0 0
+Po 0 61475 25775 62700 27000 80 -1
+De 15 0 46 0 0
+Po 0 61475 24325 61475 25775 80 -1
+De 15 0 46 0 400000
+Po 0 64000 29000 64500 29000 80 -1
+De 15 0 46 0 800000
+Po 0 62700 27000 62700 27700 80 -1
+De 15 0 46 0 0
+Po 0 62700 27700 64000 29000 80 -1
+De 15 0 46 0 0
+Po 0 62900 26900 62900 27400 80 -1
+De 15 0 47 0 0
+Po 0 65000 28500 64000 28500 80 -1
+De 15 0 47 0 0
+Po 0 65000 28500 65500 29000 80 -1
+De 15 0 47 0 800000
+Po 0 62900 27400 64000 28500 80 -1
+De 15 0 47 0 0
+Po 0 61865 24325 61865 25865 80 -1
+De 15 0 47 0 400000
+Po 0 61865 25865 62900 26900 80 -1
+De 15 0 47 0 0
+Po 0 62065 25765 63500 27200 80 -1
+De 15 0 48 0 0
+Po 0 65700 27200 66300 27800 80 -1
+De 15 0 48 0 0
+Po 0 65000 29500 66000 29500 80 -1
+De 15 0 48 0 0
+Po 0 62065 24325 62065 25765 80 -1
+De 15 0 48 0 400000
+Po 0 66300 29200 66000 29500 80 -1
+De 15 0 48 0 0
+Po 0 65000 29500 64500 30000 80 -1
+De 15 0 48 0 800000
+Po 0 63500 27200 65700 27200 80 -1
+De 15 0 48 0 0
+Po 0 66300 27800 66300 29200 80 -1
+De 15 0 48 0 0
+Po 0 63582 27000 65800 27000 80 -1
+De 15 0 49 0 0
+Po 0 62260 24325 62260 25678 80 -1
+De 15 0 49 0 400000
+Po 0 65800 27000 66500 27700 80 -1
+De 15 0 49 0 0
+Po 0 66500 27700 66500 29500 80 -1
+De 15 0 49 0 0
+Po 0 66500 29500 66000 30000 80 -1
+De 15 0 49 0 0
+Po 0 62260 25678 63582 27000 80 -1
+De 15 0 49 0 0
+Po 0 66000 30000 65500 30000 80 -1
+De 15 0 49 0 800000
+Po 0 51000 13000 49000 11000 80 -1
+De 15 0 50 0 0
+Po 0 52500 13800 51700 13000 80 -1
+De 15 0 50 0 0
+Po 0 53555 16555 52500 15500 80 -1
+De 15 0 50 0 0
+Po 0 49000 11000 49000 10500 80 -1
+De 15 0 50 0 800000
+Po 0 52500 15500 52500 13800 80 -1
+De 15 0 50 0 0
+Po 0 51700 13000 51000 13000 80 -1
+De 15 0 50 0 0
+Po 0 55475 16555 53555 16555 80 -1
+De 15 0 50 0 400000
+Po 0 72000 24000 72000 24500 80 -1
+De 15 0 51 0 800000
+Po 0 64125 21870 69870 21870 80 -1
+De 15 0 51 0 400000
+Po 0 69870 21870 72000 24000 80 -1
+De 15 0 51 0 0
+Po 0 52300 13900 51600 13200 80 -1
+De 15 0 52 0 0
+Po 0 51600 13200 50700 13200 80 -1
+De 15 0 52 0 0
+Po 0 55475 16755 53455 16755 80 -1
+De 15 0 52 0 400000
+Po 0 52300 15600 52300 13900 80 -1
+De 15 0 52 0 0
+Po 0 53455 16755 52300 15600 80 -1
+De 15 0 52 0 0
+Po 0 48500 10100 48500 11000 80 -1
+De 15 0 52 0 0
+Po 0 48000 9600 48500 10100 80 -1
+De 15 0 52 0 0
+Po 0 50700 13200 48500 11000 80 -1
+De 15 0 52 0 0
+Po 0 48000 9600 48000 9500 80 -1
+De 15 0 52 0 800000
+Po 0 55475 16950 53350 16950 80 -1
+De 15 0 53 0 400000
+Po 0 51500 13400 50400 13400 80 -1
+De 15 0 53 0 0
+Po 0 52100 14000 51500 13400 80 -1
+De 15 0 53 0 0
+Po 0 53350 16950 52100 15700 80 -1
+De 15 0 53 0 0
+Po 0 48000 11000 48000 10500 80 -1
+De 15 0 53 0 800000
+Po 0 50400 13400 48000 11000 80 -1
+De 15 0 53 0 0
+Po 0 52100 15700 52100 14000 80 -1
+De 15 0 53 0 0
+Po 0 47500 10000 47500 11000 80 -1
+De 15 0 54 0 0
+Po 0 51900 14100 51400 13600 80 -1
+De 15 0 54 0 0
+Po 0 50100 13600 47500 11000 80 -1
+De 15 0 54 0 0
+Po 0 47500 10000 47000 9500 80 -1
+De 15 0 54 0 800000
+Po 0 55475 17345 53445 17345 80 -1
+De 15 0 54 0 400000
+Po 0 53445 17345 51900 15800 80 -1
+De 15 0 54 0 0
+Po 0 51400 13600 50100 13600 80 -1
+De 15 0 54 0 0
+Po 0 51900 15800 51900 14100 80 -1
+De 15 0 54 0 0
+Po 0 51700 15900 51700 14200 80 -1
+De 15 0 55 0 0
+Po 0 53340 17540 51700 15900 80 -1
+De 15 0 55 0 0
+Po 0 51300 13800 49800 13800 80 -1
+De 15 0 55 0 0
+Po 0 47000 11000 47000 10500 80 -1
+De 15 0 55 0 800000
+Po 0 55475 17540 53340 17540 80 -1
+De 15 0 55 0 400000
+Po 0 51700 14200 51300 13800 80 -1
+De 15 0 55 0 0
+Po 0 49800 13800 47000 11000 80 -1
+De 15 0 55 0 0
+Po 0 50000 16000 50000 15500 80 -1
+De 15 0 56 0 800000
+Po 0 52100 17600 51600 17600 80 -1
+De 15 0 56 0 0
+Po 0 55475 17935 52435 17935 80 -1
+De 15 0 56 0 400000
+Po 0 51600 17600 50000 16000 80 -1
+De 15 0 56 0 0
+Po 0 52435 17935 52100 17600 80 -1
+De 15 0 56 0 0
+Po 0 52493 17735 52176 17418 80 -1
+De 15 0 57 0 0
+Po 0 51918 17418 50500 16000 80 -1
+De 15 0 57 0 0
+Po 0 50500 15000 50500 16000 80 -1
+De 15 0 57 0 0
+Po 0 55475 17735 52493 17735 80 -1
+De 15 0 57 0 400000
+Po 0 52176 17418 51918 17418 80 -1
+De 15 0 57 0 0
+Po 0 50500 15000 50000 14500 80 -1
+De 15 0 57 0 800000
+Po 0 51300 17800 49500 16000 80 -1
+De 15 0 58 0 0
+Po 0 49500 15000 49500 16000 80 -1
+De 15 0 58 0 0
+Po 0 55475 18130 52330 18130 80 -1
+De 15 0 58 0 400000
+Po 0 49500 15000 49000 14500 80 -1
+De 15 0 58 0 800000
+Po 0 52000 17800 51300 17800 80 -1
+De 15 0 58 0 0
+Po 0 52330 18130 52000 17800 80 -1
+De 15 0 58 0 0
+Po 0 52225 18325 51900 18000 80 -1
+De 15 0 59 0 0
+Po 0 55475 18325 52225 18325 80 -1
+De 15 0 59 0 400000
+Po 0 51000 18000 49000 16000 80 -1
+De 15 0 59 0 0
+Po 0 51900 18000 51000 18000 80 -1
+De 15 0 59 0 0
+Po 0 49000 16000 49000 15500 80 -1
+De 15 0 59 0 800000
+Po 0 55475 18720 52020 18720 80 -1
+De 15 0 60 0 400000
+Po 0 48000 16000 48000 15500 80 -1
+De 15 0 60 0 800000
+Po 0 51700 18400 50400 18400 80 -1
+De 15 0 60 0 0
+Po 0 50400 18400 48000 16000 80 -1
+De 15 0 60 0 0
+Po 0 52020 18720 51700 18400 80 -1
+De 15 0 60 0 0
+Po 0 48500 15000 48000 14500 80 -1
+De 15 0 61 0 800000
+Po 0 51800 18200 50700 18200 80 -1
+De 15 0 61 0 0
+Po 0 52125 18525 51800 18200 80 -1
+De 15 0 61 0 0
+Po 0 55475 18525 52125 18525 80 -1
+De 15 0 61 0 400000
+Po 0 50700 18200 48500 16000 80 -1
+De 15 0 61 0 0
+Po 0 48500 15000 48500 16000 80 -1
+De 15 0 61 0 0
+Po 0 70500 25000 70500 24000 80 -1
+De 15 0 62 0 0
+Po 0 70500 25000 71000 25500 80 -1
+De 15 0 62 0 800000
+Po 0 64125 22460 68960 22460 80 -1
+De 15 0 62 0 400000
+Po 0 68960 22460 70500 24000 80 -1
+De 15 0 62 0 0
+Po 0 50100 18600 47500 16000 80 -1
+De 15 0 63 0 0
+Po 0 55475 18915 51915 18915 80 -1
+De 15 0 63 0 400000
+Po 0 51600 18600 50100 18600 80 -1
+De 15 0 63 0 0
+Po 0 51915 18915 51600 18600 80 -1
+De 15 0 63 0 0
+Po 0 47500 15000 47500 16000 80 -1
+De 15 0 63 0 0
+Po 0 47500 15000 47000 14500 80 -1
+De 15 0 63 0 800000
+Po 0 51500 18800 49800 18800 80 -1
+De 15 0 64 0 0
+Po 0 55475 19115 51815 19115 80 -1
+De 15 0 64 0 400000
+Po 0 49800 18800 47000 16000 80 -1
+De 15 0 64 0 0
+Po 0 47000 16000 47000 15500 80 -1
+De 15 0 64 0 800000
+Po 0 51815 19115 51500 18800 80 -1
+De 15 0 64 0 0
+Po 0 53090 19310 55475 19310 80 -1
+De 15 0 65 0 800000
+Po 0 50500 20000 50500 20800 80 -1
+De 15 0 65 0 0
+Po 0 51300 21100 53090 19310 80 -1
+De 15 0 65 0 0
+Po 0 50800 21100 51300 21100 80 -1
+De 15 0 65 0 0
+Po 0 50500 20800 50800 21100 80 -1
+De 15 0 65 0 0
+Po 0 50000 19500 50500 20000 80 -1
+De 15 0 65 0 400000
+Po 0 50300 21300 50000 21000 80 -1
+De 15 0 66 0 0
+Po 0 52800 19900 51400 21300 80 -1
+De 15 0 66 0 0
+Po 0 55475 19900 52800 19900 80 -1
+De 15 0 66 0 400000
+Po 0 50000 21000 50000 20500 80 -1
+De 15 0 66 0 800000
+Po 0 51400 21300 50300 21300 80 -1
+De 15 0 66 0 0
+Po 0 49500 20000 49500 21000 80 -1
+De 15 0 67 0 0
+Po 0 55475 20100 52900 20100 80 -1
+De 15 0 67 0 400000
+Po 0 52900 20100 51500 21500 80 -1
+De 15 0 67 0 0
+Po 0 49500 20000 49000 19500 80 -1
+De 15 0 67 0 800000
+Po 0 50000 21500 49500 21000 80 -1
+De 15 0 67 0 0
+Po 0 51500 21500 50000 21500 80 -1
+De 15 0 67 0 0
+Po 0 55475 20495 52805 20495 80 -1
+De 15 0 68 0 400000
+Po 0 51600 21700 49700 21700 80 -1
+De 15 0 68 0 0
+Po 0 49700 21700 49000 21000 80 -1
+De 15 0 68 0 0
+Po 0 49000 21000 49000 20500 80 -1
+De 15 0 68 0 800000
+Po 0 52805 20495 51600 21700 80 -1
+De 15 0 68 0 0
+Po 0 48000 21000 48000 20500 80 -1
+De 15 0 69 0 800000
+Po 0 53015 20885 51800 22100 80 -1
+De 15 0 69 0 0
+Po 0 55475 20885 53015 20885 80 -1
+De 15 0 69 0 400000
+Po 0 51800 22100 49100 22100 80 -1
+De 15 0 69 0 0
+Po 0 49100 22100 48000 21000 80 -1
+De 15 0 69 0 0
+Po 0 52910 20690 51700 21900 80 -1
+De 15 0 70 0 0
+Po 0 49400 21900 48500 21000 80 -1
+De 15 0 70 0 0
+Po 0 55475 20690 52910 20690 80 -1
+De 15 0 70 0 400000
+Po 0 48500 20000 48000 19500 80 -1
+De 15 0 70 0 800000
+Po 0 48500 20000 48500 21000 80 -1
+De 15 0 70 0 0
+Po 0 51700 21900 49400 21900 80 -1
+De 15 0 70 0 0
+Po 0 51900 22300 48800 22300 80 -1
+De 15 0 71 0 0
+Po 0 53115 21085 51900 22300 80 -1
+De 15 0 71 0 0
+Po 0 55475 21085 53115 21085 80 -1
+De 15 0 71 0 400000
+Po 0 47500 20000 47000 19500 80 -1
+De 15 0 71 0 800000
+Po 0 48800 22300 47500 21000 80 -1
+De 15 0 71 0 0
+Po 0 47500 20000 47500 21000 80 -1
+De 15 0 71 0 0
+Po 0 48500 22500 47000 21000 80 -1
+De 15 0 72 0 0
+Po 0 52825 21675 52000 22500 80 -1
+De 15 0 72 0 0
+Po 0 47000 21000 47000 20500 80 -1
+De 15 0 72 0 800000
+Po 0 55475 21675 52825 21675 80 -1
+De 15 0 72 0 400000
+Po 0 52000 22500 48500 22500 80 -1
+De 15 0 72 0 0
+Po 0 71500 25000 71500 24000 80 -1
+De 15 0 73 0 0
+Po 0 69565 22065 71500 24000 80 -1
+De 15 0 73 0 0
+Po 0 71500 25000 72000 25500 80 -1
+De 15 0 73 0 800000
+Po 0 64125 22065 69565 22065 80 -1
+De 15 0 73 0 400000
+Po 0 49508 25984 49508 25008 80 -1
+De 15 0 74 0 0
+Po 0 49705 26181 49508 25984 80 -1
+De 15 0 74 0 0
+Po 0 51772 25689 51280 26181 80 -1
+De 15 0 74 0 0
+Po 0 51772 23622 51772 25689 80 -1
+De 15 0 74 0 0
+Po 0 51280 26181 49705 26181 80 -1
+De 15 0 74 0 0
+Po 0 52739 22655 51772 23622 80 -1
+De 15 0 74 0 0
+Po 0 55475 22655 52739 22655 80 -1
+De 15 0 74 0 400000
+Po 0 49508 25008 49000 24500 80 -1
+De 15 0 74 0 800000
+Po 0 55475 22855 52845 22855 80 -1
+De 15 0 75 0 400000
+Po 0 49000 26000 49000 25500 80 -1
+De 15 0 75 0 800000
+Po 0 49400 26400 49000 26000 80 -1
+De 15 0 75 0 0
+Po 0 51400 26400 49400 26400 80 -1
+De 15 0 75 0 0
+Po 0 52000 25800 51400 26400 80 -1
+De 15 0 75 0 0
+Po 0 52000 23700 52000 25800 80 -1
+De 15 0 75 0 0
+Po 0 52845 22855 52000 23700 80 -1
+De 15 0 75 0 0
+Po 0 51500 26600 49100 26600 80 -1
+De 15 0 76 0 0
+Po 0 52182 25918 51500 26600 80 -1
+De 15 0 76 0 0
+Po 0 52182 23818 52182 25918 80 -1
+De 15 0 76 0 0
+Po 0 52950 23050 52182 23818 80 -1
+De 15 0 76 0 0
+Po 0 55475 23050 52950 23050 80 -1
+De 15 0 76 0 400000
+Po 0 49100 26600 48500 26000 80 -1
+De 15 0 76 0 0
+Po 0 48500 26000 48500 25000 80 -1
+De 15 0 76 0 0
+Po 0 48500 25000 48000 24500 80 -1
+De 15 0 76 0 800000
+Po 0 62900 14900 64200 14900 80 -1
+De 15 0 77 0 0
+Po 0 66900 10300 66900 12600 80 -1
+De 15 0 77 0 0
+Po 0 62655 15145 62655 15675 80 -1
+De 15 0 77 0 800000
+Po 0 62655 15145 62900 14900 80 -1
+De 15 0 77 0 0
+Po 0 65000 9500 66100 9500 80 -1
+De 15 0 77 0 0
+Po 0 64600 14900 64200 14900 80 -1
+De 15 0 77 0 0
+Po 0 66100 9500 66900 10300 80 -1
+De 15 0 77 0 0
+Po 0 66900 12600 64600 14900 80 -1
+De 15 0 77 0 0
+Po 0 64500 10000 65000 9500 80 -1
+De 15 0 77 0 400000
+Po 0 66500 12400 64400 14500 80 -1
+De 15 0 78 0 0
+Po 0 66500 11000 66500 12400 80 -1
+De 15 0 78 0 0
+Po 0 64500 11000 65000 10500 80 -1
+De 15 0 78 0 400000
+Po 0 66000 10500 66500 11000 80 -1
+De 15 0 78 0 0
+Po 0 65000 10500 66000 10500 80 -1
+De 15 0 78 0 0
+Po 0 62260 14940 62260 15675 80 -1
+De 15 0 78 0 800000
+Po 0 62260 14940 62700 14500 80 -1
+De 15 0 78 0 0
+Po 0 64400 14500 64200 14500 80 -1
+De 15 0 78 0 0
+Po 0 62700 14500 64200 14500 80 -1
+De 15 0 78 0 0
+Po 0 63000 15100 64200 15100 80 -1
+De 15 0 79 0 0
+Po 0 64200 15100 64700 15100 80 -1
+De 15 0 79 0 0
+Po 0 64700 15100 67100 12700 80 -1
+De 15 0 79 0 0
+Po 0 67100 10100 66000 9000 80 -1
+De 15 0 79 0 0
+Po 0 62850 15250 63000 15100 80 -1
+De 15 0 79 0 0
+Po 0 66000 9000 65500 9000 80 -1
+De 15 0 79 0 800000
+Po 0 67100 12700 67100 10100 80 -1
+De 15 0 79 0 0
+Po 0 62850 15675 62850 15250 80 -1
+De 15 0 79 0 400000
+Po 0 64125 21280 68720 21280 80 -1
+De 15 0 80 0 400000
+Po 0 68720 21280 69000 21000 80 -1
+De 15 0 80 0 0
+Po 0 69000 21000 69000 20500 80 -1
+De 15 0 80 0 800000
+Po 0 62455 15045 62800 14700 80 -1
+De 15 0 81 0 0
+Po 0 66700 10700 66000 10000 80 -1
+De 15 0 81 0 0
+Po 0 62800 14700 64200 14700 80 -1
+De 15 0 81 0 0
+Po 0 64500 14700 66700 12500 80 -1
+De 15 0 81 0 0
+Po 0 64200 14700 64500 14700 80 -1
+De 15 0 81 0 0
+Po 0 66000 10000 65500 10000 80 -1
+De 15 0 81 0 800000
+Po 0 62455 15675 62455 15045 80 -1
+De 15 0 81 0 400000
+Po 0 66700 12500 66700 10700 80 -1
+De 15 0 81 0 0
+Po 0 62065 14835 62600 14300 80 -1
+De 15 0 82 0 0
+Po 0 66300 12300 66300 11600 80 -1
+De 15 0 82 0 0
+Po 0 62600 14300 64200 14300 80 -1
+De 15 0 82 0 0
+Po 0 64200 14300 64300 14300 80 -1
+De 15 0 82 0 0
+Po 0 62065 15675 62065 14835 80 -1
+De 15 0 82 0 400000
+Po 0 65700 11000 65500 11000 80 -1
+De 15 0 82 0 800000
+Po 0 64300 14300 66300 12300 80 -1
+De 15 0 82 0 0
+Po 0 66300 11600 65700 11000 80 -1
+De 15 0 82 0 0
+Po 0 66100 11800 65800 11500 80 -1
+De 15 0 83 0 0
+Po 0 65800 11500 65000 11500 80 -1
+De 15 0 83 0 0
+Po 0 65300 12600 65700 12600 80 -1
+De 15 0 83 0 0
+Po 0 63500 13100 64800 13100 80 -1
+De 15 0 83 0 0
+Po 0 61865 14735 63500 13100 80 -1
+De 15 0 83 0 0
+Po 0 65700 12600 66100 12200 80 -1
+De 15 0 83 0 0
+Po 0 65000 11500 64500 12000 80 -1
+De 15 0 83 0 800000
+Po 0 61865 15675 61865 14735 80 -1
+De 15 0 83 0 400000
+Po 0 66100 12200 66100 11800 80 -1
+De 15 0 83 0 0
+Po 0 64800 13100 65300 12600 80 -1
+De 15 0 83 0 0
+Po 0 61475 15675 61475 14725 80 -1
+De 15 0 84 0 400000
+Po 0 61475 14725 63400 12800 80 -1
+De 15 0 84 0 0
+Po 0 63400 12800 64700 12800 80 -1
+De 15 0 84 0 0
+Po 0 64700 12800 65500 12000 80 -1
+De 15 0 84 0 800000
+Po 0 62900 13000 61275 14625 80 -1
+De 15 0 85 0 0
+Po 0 61275 14625 61275 15675 80 -1
+De 15 0 85 0 800000
+Po 0 61000 8500 62900 10400 80 -1
+De 15 0 85 0 0
+Po 0 62900 10400 62900 13000 80 -1
+De 15 0 85 0 0
+Po 0 60000 8500 61000 8500 80 -1
+De 15 0 85 0 0
+Po 0 59500 9000 60000 8500 80 -1
+De 15 0 85 0 400000
+Po 0 60900 9000 60500 9000 80 -1
+De 15 0 86 0 800000
+Po 0 62600 10700 60900 9000 80 -1
+De 15 0 86 0 0
+Po 0 61080 14420 62600 12900 80 -1
+De 15 0 86 0 0
+Po 0 62600 12900 62600 10700 80 -1
+De 15 0 86 0 0
+Po 0 61080 15675 61080 14420 80 -1
+De 15 0 86 0 400000
+Po 0 60000 9500 61000 9500 80 -1
+De 15 0 87 0 0
+Po 0 61000 9500 62300 10800 80 -1
+De 15 0 87 0 0
+Po 0 62300 12800 60885 14215 80 -1
+De 15 0 87 0 0
+Po 0 62300 10800 62300 12800 80 -1
+De 15 0 87 0 0
+Po 0 59500 10000 60000 9500 80 -1
+De 15 0 87 0 400000
+Po 0 60885 14215 60885 15675 80 -1
+De 15 0 87 0 800000
+Po 0 62000 11200 60800 10000 80 -1
+De 15 0 88 0 0
+Po 0 60490 14210 62000 12700 80 -1
+De 15 0 88 0 0
+Po 0 62000 12700 62000 11200 80 -1
+De 15 0 88 0 0
+Po 0 60490 15675 60490 14210 80 -1
+De 15 0 88 0 400000
+Po 0 60800 10000 60500 10000 80 -1
+De 15 0 88 0 800000
+Po 0 60295 13705 60700 13300 80 -1
+De 15 0 89 0 0
+Po 0 60700 13300 61000 13300 80 -1
+De 15 0 89 0 0
+Po 0 61700 12600 61700 11300 80 -1
+De 15 0 89 0 0
+Po 0 61700 11300 60900 10500 80 -1
+De 15 0 89 0 0
+Po 0 60295 15675 60295 13705 80 -1
+De 15 0 89 0 400000
+Po 0 60900 10500 60000 10500 80 -1
+De 15 0 89 0 0
+Po 0 61000 13300 61700 12600 80 -1
+De 15 0 89 0 0
+Po 0 60000 10500 59500 11000 80 -1
+De 15 0 89 0 800000
+Po 0 61400 11500 61400 12500 80 -1
+De 15 0 90 0 0
+Po 0 59900 13600 59900 15675 80 -1
+De 15 0 90 0 800000
+Po 0 61400 12500 60900 13000 80 -1
+De 15 0 90 0 0
+Po 0 60500 11000 60900 11000 80 -1
+De 15 0 90 0 400000
+Po 0 60500 13000 59900 13600 80 -1
+De 15 0 90 0 0
+Po 0 60900 13000 60500 13000 80 -1
+De 15 0 90 0 0
+Po 0 60900 11000 61400 11500 80 -1
+De 15 0 90 0 0
+Po 0 68500 20000 68500 21000 80 -1
+De 15 0 91 0 0
+Po 0 64125 21085 68415 21085 80 -1
+De 15 0 91 0 400000
+Po 0 68500 20000 69000 19500 80 -1
+De 15 0 91 0 800000
+Po 0 68415 21085 68500 21000 80 -1
+De 15 0 91 0 0
+Po 0 59505 12995 60500 12000 80 -1
+De 15 0 92 0 800000
+Po 0 59505 15675 59505 12995 80 -1
+De 15 0 92 0 400000
+Po 0 61100 11700 60900 11500 80 -1
+De 15 0 93 0 0
+Po 0 60900 11500 60000 11500 80 -1
+De 15 0 93 0 0
+Po 0 61100 12400 61100 11700 80 -1
+De 15 0 93 0 0
+Po 0 59700 15675 59700 13300 80 -1
+De 15 0 93 0 400000
+Po 0 60800 12700 61100 12400 80 -1
+De 15 0 93 0 0
+Po 0 60300 12700 60800 12700 80 -1
+De 15 0 93 0 0
+Po 0 59700 13300 60300 12700 80 -1
+De 15 0 93 0 0
+Po 0 60000 11500 59500 12000 80 -1
+De 15 0 93 0 800000
+Po 0 55000 8500 54500 9000 80 -1
+De 15 0 94 0 800000
+Po 0 59000 14700 59000 12400 80 -1
+De 15 0 94 0 0
+Po 0 58000 11400 58000 10600 80 -1
+De 15 0 94 0 0
+Po 0 55900 8500 55000 8500 80 -1
+De 15 0 94 0 0
+Po 0 59305 15005 59000 14700 80 -1
+De 15 0 94 0 0
+Po 0 59000 12400 58000 11400 80 -1
+De 15 0 94 0 0
+Po 0 58000 10600 55900 8500 80 -1
+De 15 0 94 0 0
+Po 0 59305 15675 59305 15005 80 -1
+De 15 0 94 0 400000
+Po 0 55500 9000 55800 9000 80 -1
+De 15 0 95 0 400000
+Po 0 55800 9000 57700 10900 80 -1
+De 15 0 95 0 0
+Po 0 57700 10900 57700 11600 80 -1
+De 15 0 95 0 0
+Po 0 57700 11600 58715 12615 80 -1
+De 15 0 95 0 0
+Po 0 58715 12615 58715 15675 80 -1
+De 15 0 95 0 800000
+Po 0 58520 14920 58400 14800 80 -1
+De 15 0 96 0 0
+Po 0 57400 11800 57400 11100 80 -1
+De 15 0 96 0 0
+Po 0 58520 15675 58520 14920 80 -1
+De 15 0 96 0 400000
+Po 0 55800 9500 55000 9500 80 -1
+De 15 0 96 0 0
+Po 0 58400 12800 57400 11800 80 -1
+De 15 0 96 0 0
+Po 0 58400 14800 58400 12800 80 -1
+De 15 0 96 0 0
+Po 0 57400 11100 55800 9500 80 -1
+De 15 0 96 0 0
+Po 0 55000 9500 54500 10000 80 -1
+De 15 0 96 0 800000
+Po 0 58125 13025 58125 15675 80 -1
+De 15 0 97 0 800000
+Po 0 55800 10000 57100 11300 80 -1
+De 15 0 97 0 0
+Po 0 57100 12000 58125 13025 80 -1
+De 15 0 97 0 0
+Po 0 57100 11300 57100 12000 80 -1
+De 15 0 97 0 0
+Po 0 55500 10000 55800 10000 80 -1
+De 15 0 97 0 400000
+Po 0 56500 12400 57735 13635 80 -1
+De 15 0 98 0 0
+Po 0 56500 11700 56500 12400 80 -1
+De 15 0 98 0 0
+Po 0 57735 13635 57735 15675 80 -1
+De 15 0 98 0 800000
+Po 0 55500 11000 55800 11000 80 -1
+De 15 0 98 0 400000
+Po 0 55800 11000 56500 11700 80 -1
+De 15 0 98 0 0
+Po 0 56800 12200 56800 11500 80 -1
+De 15 0 99 0 0
+Po 0 57930 15675 57930 13330 80 -1
+De 15 0 99 0 400000
+Po 0 55800 10500 55000 10500 80 -1
+De 15 0 99 0 0
+Po 0 56800 11500 55800 10500 80 -1
+De 15 0 99 0 0
+Po 0 55000 10500 54500 11000 80 -1
+De 15 0 99 0 800000
+Po 0 57930 13330 56800 12200 80 -1
+De 15 0 99 0 0
+Po 0 55800 11500 55000 11500 80 -1
+De 15 0 100 0 0
+Po 0 56200 12600 56200 11900 80 -1
+De 15 0 100 0 0
+Po 0 56200 11900 55800 11500 80 -1
+De 15 0 100 0 0
+Po 0 57535 15675 57535 13935 80 -1
+De 15 0 100 0 400000
+Po 0 57535 13935 56200 12600 80 -1
+De 15 0 100 0 0
+Po 0 55000 11500 54500 12000 80 -1
+De 15 0 100 0 800000
+Po 0 57340 14740 57340 15675 80 -1
+De 15 0 101 0 800000
+Po 0 55500 12900 57340 14740 80 -1
+De 15 0 101 0 0
+Po 0 55500 12000 55500 12900 80 -1
+De 15 0 101 0 400000
+Po 0 52500 23800 53055 23245 80 -1
+De 15 0 102 0 0
+Po 0 48000 26000 48800 26800 80 -1
+De 15 0 102 0 0
+Po 0 48800 26800 51600 26800 80 -1
+De 15 0 102 0 0
+Po 0 51600 26800 52500 25900 80 -1
+De 15 0 102 0 0
+Po 0 53055 23245 55475 23245 80 -1
+De 15 0 102 0 800000
+Po 0 52500 25900 52500 23800 80 -1
+De 15 0 102 0 0
+Po 0 48000 25500 48000 26000 80 -1
+De 15 0 102 0 400000
+Po 0 52700 23900 52700 26000 80 -1
+De 15 0 104 0 0
+Po 0 53155 23445 52700 23900 80 -1
+De 15 0 104 0 0
+Po 0 48500 27000 47500 26000 80 -1
+De 15 0 104 0 0
+Po 0 51700 27000 48500 27000 80 -1
+De 15 0 104 0 0
+Po 0 52700 26000 51700 27000 80 -1
+De 15 0 104 0 0
+Po 0 55475 23445 53155 23445 80 -1
+De 15 0 104 0 400000
+Po 0 47500 25000 47000 24500 80 -1
+De 15 0 104 0 800000
+Po 0 47500 26000 47500 25000 80 -1
+De 15 0 104 0 0
+Po 0 59055 19488 59055 19489 80 -1
+De 15 0 106 0 0
+Po 0 56102 19488 56085 19505 80 -1
+De 15 0 106 0 0
+Po 0 56085 19505 55475 19505 80 -1
+De 15 0 106 0 800000
+Po 0 59055 16339 59110 16284 80 -1
+De 15 0 106 0 0
+Po 0 60433 22938 60433 23622 80 -1
+De 0 0 106 0 400000
+Po 0 63306 20885 63287 20866 80 -1
+De 15 0 106 0 0
+Po 3 59055 16339 59055 16339 350 -1
+De 15 1 106 0 0
+Po 0 60433 23622 60490 23679 80 -1
+De 15 0 106 0 0
+Po 0 60490 23679 60490 24325 80 -1
+De 15 0 106 0 800000
+Po 0 59055 17023 59055 16339 80 -1
+De 0 0 106 0 400000
+Po 0 56299 19685 56102 19488 80 -1
+De 0 0 106 0 0
+Po 0 59110 16284 59110 15675 80 -1
+De 15 0 106 0 800000
+Po 0 56787 19685 56299 19685 80 -1
+De 0 0 106 0 400000
+Po 3 56102 19488 56102 19488 350 -1
+De 15 1 106 0 0
+Po 0 59055 16339 59055 19489 80 -1
+De 15 0 106 0 0
+Po 0 60433 20867 60433 20866 80 -1
+De 15 0 106 0 0
+Po 0 59055 19489 60433 20867 80 -1
+De 15 0 106 0 0
+Po 0 60433 23622 60433 22933 80 -1
+De 15 0 106 0 0
+Po 3 60433 23622 60433 23622 350 -1
+De 15 1 106 0 0
+Po 0 63287 20866 62702 20866 80 -1
+De 0 0 106 0 800000
+Po 0 64125 20885 63306 20885 80 -1
+De 15 0 106 0 400000
+Po 3 63287 20866 63287 20866 350 -1
+De 15 1 106 0 0
+Po 0 60433 20866 60433 20866 80 -1
+De 15 0 106 0 0
+Po 0 60433 20866 63287 20866 80 -1
+De 15 0 106 0 0
+Po 0 60433 22933 60433 20866 80 -1
+De 15 0 106 0 0
+Po 0 56102 19488 59055 19488 80 -1
+De 15 0 106 0 0
+Po 0 57480 23622 56787 22929 80 -1
+De 0 0 107 0 0
+Po 0 60039 15748 60630 16339 80 -1
+De 0 0 107 0 0
+Po 0 57087 16535 57874 15748 80 -1
+De 0 0 107 0 0
+Po 0 60532 24114 61024 23622 80 -1
+De 0 0 107 0 0
+Po 0 55512 18110 56299 17323 80 -1
+De 0 0 107 0 0
+Po 0 56299 21063 55512 20276 80 -1
+De 0 0 107 0 0
+Po 0 56299 21063 56787 21063 80 -1
+De 0 0 107 0 800000
+Po 0 55512 20276 55512 18110 80 -1
+De 0 0 107 0 0
+Po 0 58858 23622 57480 23622 80 -1
+De 0 0 107 0 0
+Po 0 58858 23622 59350 24114 80 -1
+De 0 0 107 0 0
+Po 0 56787 22929 56787 22146 80 -1
+De 0 0 107 0 800000
+Po 0 56299 17323 57087 16535 80 -1
+De 0 0 107 0 0
+Po 0 56787 22146 56787 21063 80 -1
+De 0 0 107 0 C00000
+Po 0 57874 15748 60039 15748 80 -1
+De 0 0 107 0 0
+Po 3 56299 21063 56299 21063 350 -1
+De 15 1 107 0 0
+Po 0 60630 17023 60630 16339 80 -1
+De 0 0 107 0 400000
+Po 0 60685 16284 60685 15675 80 -1
+De 15 0 107 0 800000
+Po 0 58858 22938 58858 23622 80 -1
+De 0 0 107 0 400000
+Po 0 55475 17145 56121 17145 80 -1
+De 15 0 107 0 400000
+Po 0 55475 21280 56082 21280 80 -1
+De 15 0 107 0 400000
+Po 0 60685 24325 60685 23961 80 -1
+De 15 0 107 0 400000
+Po 0 56299 22146 56201 22244 80 -1
+De 0 0 107 0 0
+Po 0 58915 23679 58915 24325 80 -1
+De 15 0 107 0 800000
+Po 0 63287 19587 63976 20276 80 -1
+De 0 0 107 0 0
+Po 0 61417 23229 61417 22938 80 -1
+De 0 0 107 0 800000
+Po 0 63976 21950 62845 23081 80 -1
+De 0 0 107 0 0
+Po 0 61417 22938 62402 22938 80 -1
+De 0 0 107 0 C00000
+Po 0 63976 20276 63976 21950 80 -1
+De 0 0 107 0 0
+Po 3 60630 16339 60630 16339 350 -1
+De 15 1 107 0 0
+Po 3 63287 18406 63287 18406 350 -1
+De 15 1 107 0 0
+Po 0 59350 24114 60532 24114 80 -1
+De 0 0 107 0 0
+Po 0 63189 23425 63245 23481 80 -1
+De 15 0 107 0 0
+Po 0 56693 17717 56787 17717 80 -1
+De 0 0 107 0 800000
+Po 0 56299 17323 56693 17717 80 -1
+De 0 0 107 0 0
+Po 0 63245 23481 63245 24325 80 -1
+De 15 0 107 0 800000
+Po 0 62794 17913 62702 17913 80 -1
+De 0 0 107 0 800000
+Po 3 56299 17323 56299 17323 350 -1
+De 15 1 107 0 0
+Po 3 63189 23425 63189 23425 350 -1
+De 15 1 107 0 0
+Po 0 62702 22938 62845 23081 80 -1
+De 0 0 107 0 0
+Po 0 63601 18720 63287 18406 80 -1
+De 15 0 107 0 0
+Po 0 62402 22938 62702 22938 80 -1
+De 0 0 107 0 400000
+Po 0 62845 23081 63189 23425 80 -1
+De 0 0 107 0 0
+Po 0 63287 18406 62794 17913 80 -1
+De 0 0 107 0 0
+Po 0 56121 17145 56299 17323 80 -1
+De 15 0 107 0 0
+Po 0 60630 16339 60685 16284 80 -1
+De 15 0 107 0 0
+Po 3 58858 23622 58858 23622 350 -1
+De 15 1 107 0 0
+Po 0 58858 23622 58915 23679 80 -1
+De 15 0 107 0 0
+Po 0 64125 18130 63563 18130 80 -1
+De 15 0 107 0 400000
+Po 0 63563 18130 63287 18406 80 -1
+De 15 0 107 0 0
+Po 0 63287 18406 63287 19587 80 -1
+De 0 0 107 0 0
+Po 0 64125 18720 63601 18720 80 -1
+De 15 0 107 0 400000
+Po 0 60685 23961 61024 23622 80 -1
+De 15 0 107 0 0
+Po 0 56180 22265 55475 22265 80 -1
+De 15 0 107 0 800000
+Po 0 56201 22244 56180 22265 80 -1
+De 15 0 107 0 0
+Po 3 56201 22244 56201 22244 350 -1
+De 15 1 107 0 0
+Po 0 56787 22146 56299 22146 80 -1
+De 0 0 107 0 400000
+Po 3 61024 23622 61024 23622 350 -1
+De 15 1 107 0 0
+Po 0 61024 23622 61417 23229 80 -1
+De 0 0 107 0 0
+Po 0 56082 21280 56299 21063 80 -1
+De 15 0 107 0 0
+Po 0 59055 17623 59055 18012 80 -1
+De 0 0 109 0 400000
+Po 0 62850 24325 62850 23874 80 -1
+De 15 0 109 0 400000
+Po 0 60630 17623 60630 18209 80 -1
+De 0 0 109 0 400000
+Po 0 56750 16183 56496 16437 80 -1
+De 15 0 109 0 0
+Po 3 56496 16437 56496 16437 350 -1
+De 15 1 109 0 0
+Po 0 57930 24325 57930 23678 80 -1
+De 15 0 109 0 400000
+Po 0 59055 17623 58568 17623 80 -1
+De 0 0 109 0 400000
+Po 3 58071 17126 58071 17126 350 -1
+De 15 1 109 0 0
+Po 3 59547 18504 59547 18504 350 -1
+De 15 1 109 0 0
+Po 3 56693 23524 56693 23524 350 -1
+De 15 1 109 0 0
+Po 3 61614 21358 61614 21358 350 -1
+De 15 1 109 0 0
+Po 0 57387 17820 57874 18307 80 -1
+De 0 0 109 0 0
+Po 0 59055 18012 59547 18504 80 -1
+De 0 0 109 0 0
+Po 0 58568 17623 58071 17126 80 -1
+De 0 0 109 0 0
+Po 0 57480 21063 57972 20571 80 -1
+De 0 0 109 0 0
+Po 3 57972 20571 57972 20571 350 -1
+De 15 1 109 0 0
+Po 0 57387 21063 57480 21063 80 -1
+De 0 0 109 0 400000
+Po 0 56182 20295 56201 20276 80 -1
+De 15 0 109 0 0
+Po 0 55475 20295 56182 20295 80 -1
+De 15 0 109 0 400000
+Po 0 57776 23524 56693 23524 80 -1
+De 15 0 109 0 0
+Po 3 57874 18307 57874 18307 350 -1
+De 15 1 109 0 0
+Po 0 57387 17717 57387 17820 80 -1
+De 0 0 109 0 400000
+Po 0 62504 22338 62992 21850 80 -1
+De 0 0 109 0 0
+Po 0 62402 22338 62504 22338 80 -1
+De 0 0 109 0 400000
+Po 0 62850 23874 62500 23524 80 -1
+De 15 0 109 0 0
+Po 0 62102 17913 62102 18697 80 -1
+De 0 0 109 0 400000
+Po 0 62102 18697 62106 18701 80 -1
+De 0 0 109 0 0
+Po 0 57874 22146 57972 22244 80 -1
+De 0 0 109 0 0
+Po 0 58858 22338 59641 22338 80 -1
+De 0 0 109 0 400000
+Po 0 57930 23678 57776 23524 80 -1
+De 15 0 109 0 0
+Po 3 59646 22343 59646 22343 350 -1
+De 15 1 109 0 0
+Po 0 57387 22146 57874 22146 80 -1
+De 0 0 109 0 400000
+Po 3 57972 22244 57972 22244 350 -1
+De 15 1 109 0 0
+Po 3 62106 18701 62106 18701 350 -1
+De 15 1 109 0 0
+Po 3 62500 23524 62500 23524 350 -1
+De 15 1 109 0 0
+Po 0 59641 22338 59646 22343 80 -1
+De 0 0 109 0 0
+Po 0 56750 15675 56750 16183 80 -1
+De 15 0 109 0 400000
+Po 3 60630 18209 60630 18209 350 -1
+De 15 1 109 0 0
+Po 3 62992 21850 62992 21850 350 -1
+De 15 1 109 0 0
+Po 0 62102 20866 62102 20870 80 -1
+De 0 0 109 0 400000
+Po 0 62102 20870 61614 21358 80 -1
+De 0 0 109 0 0
+Po 0 62102 20866 62102 20862 80 -1
+De 0 0 109 0 400000
+Po 3 61614 20374 61614 20374 350 -1
+De 15 1 109 0 0
+Po 0 62102 20862 61614 20374 80 -1
+De 0 0 109 0 0
+Po 3 56201 20276 56201 20276 350 -1
+De 15 1 109 0 0
 $EndTRACK
 $ZONE
 $EndZONE

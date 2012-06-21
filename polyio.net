@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 18 Jun 2012 11:08:42 AM CEST
+# EESchema Netlist Version 1.1 created  Fri 22 Jun 2012 01:30:17 AM CEST
 (
  ( /4FDA1D6B/4FDA25E9 SM0603 C1 C
   ( 1 1V2_core )
@@ -40,7 +40,7 @@
   ( 1 3V3 )
   ( 2 GND )
  )
- ( /4FDA1D6B/4FDA25D9 SM0603 C11 C
+ ( /4FDA1D6B/4FDA25D9 SM0805 C11 C
   ( 1 3V3 )
   ( 2 GND )
  )
@@ -48,19 +48,97 @@
   ( 1 3V3 )
   ( 2 GND )
  )
- ( /4FDB7075 RJ45_TRANSFO J1 RJ45-TRANSFO
-  ( 1 N-000052 )
-  ( 2 ? )
-  ( 3 N-000045 )
-  ( 4 N-000053 )
-  ( 5 ? )
-  ( 6 N-000044 )
-  ( 8 ? )
-  ( 13 ? )
-  ( GA N-000004 )
-  ( GK GND )
-  ( YA ? )
-  ( YK ? )
+ ( /4FE23A3E SM0805 C13 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A3B SM0805 C14 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A2D SM0805 C15 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A1D SM0805 C16 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A20 SM0805 C17 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A24 SM0805 C18 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A30 SM0805 C19 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A36 SM0805 C20 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A47 SM0805 C21 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A4B SM0805 C22 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FE23A4E SM0805 C23 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3ACB4 SM0805 C24 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3ACE4 SM0805 C25 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3ACC0 SM0805 C26 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3ACEC SM0805 C27 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3ACCB SM0603 C28 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3ACFD SM0603 C29 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3AD26 SM0603 C30 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3AD2E SM0603 C31 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3AD23 SM0603 C32 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3AD2B SM0603 C33 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3AD22 SM0603 C34 C
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /4FDA1D6B/4FE3AD2A SM0603 C35 C
+  ( 1 3V3 )
+  ( 2 GND )
  )
  ( /4FDA1D6B/4FDA267E PIN_ARRAY_5x2 P1 CONN_5X2
   ( 1 GND )
@@ -213,98 +291,10 @@
   ( 4 /fpga_io1/io43 )
   ( 5 /fpga_io1/io44 )
   ( 6 /fpga_io1/io46 )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 5V )
-  ( 10 5V )
- )
- ( /4FDA1D6B/4FDA2D44 PIN_ARRAY_5x2 P14 CONN_5X2
-  ( 1 GND )
-  ( 2 3V3 )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 5V )
- )
- ( /4FDB70E4 SM0603 R1 R
-  ( 1 N-000047 )
-  ( 2 N-000004 )
- )
- ( /4FDDD8A7 ARDUINO_SHIELD_GHETTO_STACKING_PINS_ONLY SHIELD1 ARDUINO_SHIELD
-  ( 0 /fpga_io1/rx )
-  ( 1 /fpga_io1/tx )
-  ( 2 ? )
-  ( 3 ? )
-  ( 3V3 /3V3 )
-  ( 4 ? )
-  ( 5 ? )
-  ( 5V /5V )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( AD0 ? )
-  ( AD1 ? )
-  ( AD2 ? )
-  ( AD3 ? )
-  ( AD4 ? )
-  ( AD5 ? )
-  ( AREF ? )
-  ( GND1 GND )
-  ( GND2 GND )
-  ( GND3 GND )
-  ( RST ? )
-  ( V_IN ? )
- )
- ( /4FD9B57F Carambola U1 CARAMBOLA
-  ( 1 GND )
-  ( 2 N-000053 )
-  ( 3 N-000044 )
-  ( 4 N-000052 )
-  ( 5 N-000045 )
-  ( 6 GND )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 GND )
-  ( 13 ? )
-  ( 14 /fpga_io1/sck )
-  ( 15 /fpga_io1/mosi )
-  ( 16 ? )
-  ( 17 ? )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 N-000047 )
-  ( 21 /5V )
-  ( 22 /3V3 )
-  ( 23 /3V3 )
-  ( 24 GND )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 ? )
-  ( 28 ? )
-  ( 29 /fpga_io1/done )
-  ( 30 /fpga_io1/init_b )
-  ( 31 ? )
-  ( 32 ? )
-  ( 33 ? )
-  ( 34 ? )
-  ( 35 /fpga_io1/rx )
-  ( 36 /fpga_io1/tx )
-  ( 37 GND )
-  ( 38 ? )
-  ( 39 ? )
-  ( 40 ? )
+  ( 7 3V3 )
+  ( 8 3V3 )
+  ( 9 1V2_core )
+  ( 10 1V2_core )
  )
  ( /4FDA1D6B/4FDA1D8D TQFP144 U2 XC3S50A
   ( 1 ? )
@@ -379,7 +369,7 @@
   ( 70 /fpga_io1/io75 )
   ( 71 /fpga_io1/mosi )
   ( 72 /fpga_io1/sck )
-  ( 73 /fpga_io1/done )
+  ( 73 ? )
   ( 74 ? )
   ( 75 /fpga_io1/io28 )
   ( 76 /fpga_io1/io26 )
@@ -410,8 +400,8 @@
   ( 101 /fpga_io1/io43 )
   ( 102 /fpga_io1/io44 )
   ( 103 /fpga_io1/io46 )
-  ( 104 /fpga_io1/rx )
-  ( 105 /fpga_io1/tx )
+  ( 104 ? )
+  ( 105 ? )
   ( 106 GND )
   ( 107 ? )
   ( 108 3V3 )
@@ -514,12 +504,120 @@ $component C12
  C?
  C1-1
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
 $endlist
 $endfootprintlist
 }
